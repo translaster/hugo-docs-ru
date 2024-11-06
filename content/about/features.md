@@ -40,25 +40,25 @@ toc: true
 ## Создание контента
 
 [Форматы контента]
-: Create your content using Markdown, HTML, AsciiDoc, Emacs Org Mode, Pandoc, or reStructuredText. Markdown is the default content format, conforming to the [CommonMark] and [GitHub Flavored Markdown] specifications.
+: Создавайте контент с помощью Markdown, HTML, AsciiDoc, Emacs Org Mode, Pandoc или reStructuredText. По умолчанию используется формат Markdown, соответствующий спецификациям [CommonMark] и [GitHub Flavored Markdown].
 
 [Атрибуты Markdown]
-: Apply HTML attributes such as `class` and `id` to Markdown images and block elements including blockquotes, fenced code blocks, headings, horizontal rules, lists, paragraphs, and tables.
+: Применяйте атрибуты HTML, такие как `class` и `id`, к изображениям и блочным элементам Markdown, включая блочные кавычки, блоки кода, заголовки, горизонтальные линии, списки, абзацы и таблицы.
 
 [Расширения Markdown]
-: Leverage the embedded Markdown extensions to create tables, definition lists, footnotes, task lists, inserted text, mark text, subscripts, superscripts, and more.
+: Используйте встроенные расширения Markdown для создания таблиц, списков определений, сносок, списков задач, вставленного текста, маркированного текста, подписей, надписей и многого другого.
 
 [Хуки для рендеринга Markdown]
-: Override the conversion of Markdown to HTML when rendering blockquotes, fenced code blocks, headings, images, links, and tables. For example, render every standalone image as an HTML `figure` element.
+: Переопределите преобразование Markdown в HTML при отображении блочных цитат, огражденных блоков кода, заголовков, изображений, ссылок и таблиц. Например, каждое отдельное изображение отображается как элемент HTML `figure`.
 
-[Схемы]
-: Use fenced code blocks and Markdown render hooks to include diagrams in your content.
+[Диаграммы]
+: Используйте огражденные блоки кода и хуки рендеринга Markdown для включения диаграмм в содержимое.
 
 [Математика]
-: Include mathematical equations and expressions in Markdown using LaTeX or TeX typesetting syntax.
+: Включайте математические уравнения и выражения в Markdown, используя синтаксис набора LaTeX или TeX.
 
 [Подсветка синтаксиса]
-: Syntactically highlight code examples using Hugo's embedded syntax highlighter, enabled by default for fenced code blocks in Markdown. The syntax highlighter supports hundreds of code languages and dozens of styles.
+: Синтаксически выделяйте примеры кода с помощью встроенного в Hugo синтаксического маркера, который по умолчанию включен для блоков кода в Markdown. Выделитель синтаксиса поддерживает сотни языков кода и десятки стилей.
 
 [Шорткоды]
 : Используйте встроенные шорткоды Hugo или создавайте свои собственные для вставки сложного контента. Например, с помощью шорткодов можно включать элементы `аудио` и `видео`, выводить таблицы из локальных или удаленных источников данных, вставлять фрагменты с других страниц и многое другое.
@@ -66,33 +66,33 @@ toc: true
 ## Управление контентом
 
 [Адаптеры контента]
-: Create content adapters to dynamically add content when building your site. For example, use a content adapter to create pages from a remote data source such as JSON, TOML, YAML, or XML.
+: Создавайте адаптеры контента для динамического добавления содержимого при создании сайта. Например, используйте адаптер контента для создания страниц из удаленного источника данных, такого как JSON, TOML, YAML или XML.
 
 [Таксономия]
 : Классифицируйте содержимое для установки простых или сложных логических связей между страницами. Например, создайте таксономию авторов и назначьте одного или нескольких авторов для каждой страницы. Помимо прочего, система таксономии обеспечивает инвертированный, взвешенный индекс для вывода списка связанных страниц, упорядоченных по релевантности.
 
 [Данные]
-: Augment your content using local or remote data sources including CSV, JSON, TOML, YAML, and XML. For example, create a shortcode to render an HTML table from a remote CSV file.
+: Дополните свой контент, используя локальные или удаленные источники данных, включая CSV, JSON, TOML, YAML и XML. Например, создайте шорткод для вывода HTML-таблицы из удаленного CSV-файла.
 
 [Меню]
 : Provide rapid access to content via Hugo's menu system, configured automatically, globally, or on a page-by-page basis. The menu system is a key component of Hugo's multilingual architecture.
 
 [Управление URL]
-: Serve any page from any path via global configuration or on a page-by-page basis.
+: Подача любой страницы с любого пути с помощью глобальной конфигурации или постранично.
 
 ## Конвейеры активов
 
 [Обработка изображений]
-: Convert, resize, crop, rotate,  adjust colors, apply filters, overlay text and images, and extract EXIF data.
+: Конвертируйте, изменяйте размер, кадрируйте, поворачивайте, настраивайте цвета, применяйте фильтры, накладывайте текст и изображения, извлекайте данные EXIF.
 
 [Комплектация JavaScript]
-: Transpile TypeScript and JSX to JavaScript, bundle, tree shake, minify, create source maps, and perform SRI hashing.
+: Транспайлинг TypeScript и JSX в JavaScript, пакетирование, древовидный шейпинг, минификация, создание карт исходников и выполнение SRI-хеширования.
 
 [Обработка Sass]
-: Transpile Sass to CSS, bundle, tree shake, minify, create source maps, perform SRI hashing, and integrate with PostCSS.
+: Транспайлинг Sass в CSS, пакетирование, древовидный шейпинг, минификация, создание карт исходников, хеширование SRI и интеграция с PostCSS.
 
 [Обработка Tailwind CSS]
-: Compile Tailwind CSS utility classes into standard CSS, bundle, tree shake, optimize, minify, perform SRI hashing, and integrate with PostCSS.
+: Компилируйте классы утилит Tailwind CSS в стандартный CSS, объединяйте, перемешивайте деревья, оптимизируйте, минимизируйте, выполняйте SRI-хеширование и интегрируйте с PostCSS.
 
 ## Производительность
 
@@ -107,33 +107,33 @@ toc: true
 
 [CCPA]: https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act
 [Обработка Sass]: /functions/css/Sass/
-[Caching]: /functions/partials/includecached/
+[Кэширование]: /functions/partials/includecached/
 [CommonMark]: https://spec.commonmark.org/current/
-[Content adapters]: /content-management/content-adapters/
-[Content formats]: /content-management/formats/
-[Data]: /content-management/data-sources/
-[Diagrams]: /content-management/diagrams/
+[Адаптеры контента]: /content-management/content-adapters/
+[Форматы контента]: /content-management/formats/
+[Данные]: /content-management/data-sources/
+[Диаграммы]: /content-management/diagrams/
 [GDPR]: https://en.wikipedia.org/wiki/General_Data_Protection_Regulation
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
-[Image processing]: /content-management/image-processing/
-[JavaScript bundling]: /functions/js/build/
-[Markdown attributes]: /content-management/markdown-attributes/
-[Markdown extensions]: /getting-started/configuration-markup/#goldmark-extensions
-[Markdown render hooks]: /render-hooks/introduction/
-[Mathematics]: /content-management/mathematics/
+[Обработка изображений]: /content-management/image-processing/
+[Комплектация JavaScript]: /functions/js/build/
+[Атрибуты Markdown]: /content-management/markdown-attributes/
+[Расширения Markdown]: /getting-started/configuration-markup/#goldmark-extensions
+[Хуки для рендеринга Markdown]: /render-hooks/introduction/
+[Математика]: /content-management/mathematics/
 [Меню]: /content-management/menus/
-[Minification]: /getting-started/configuration/#configure-minify
+[Минификация]: /getting-started/configuration/#configure-minify
 [Модули]: https://gohugo.io/hugo-modules/
-[Multilingual]: /content-management/multilingual/
-[Multiplatform]: /installation/
-[Output formats]: /templates/output-formats/
-[Privacy]: /about/privacy/
-[Security]: /about/security/
-[Segmentation]: /getting-started/configuration/#configure-segments
-[Shortcodes]: /content-management/shortcodes/
-[Syntax highlighting]: /content-management/syntax-highlighting/
-[Tailwind CSS processing]: /functions/css/tailwindcss/
-[Taxonomies]: /content-management/taxonomies/
-[Templates]: templates/introduction/
+[Мультиязычность]: /content-management/multilingual/
+[Мультиплатформенность]: /installation/
+[Форматы вывода]: /templates/output-formats/
+[Приватность]: /about/privacy/
+[Безопасность]: /about/security/
+[Сегментация]: /getting-started/configuration/#configure-segments
+[Шорткоды]: /content-management/shortcodes/
+[Подсветка синтаксиса]: /content-management/syntax-highlighting/
+[Обработка Tailwind CSS]: /functions/css/tailwindcss/
+[Таксономия]: /content-management/taxonomies/
+[Шаблоны]: templates/introduction/
 [Темы]: https://themes.gohugo.io/
-[URL management]: /content-management/urls/
+[Управление URL]: /content-management/urls/

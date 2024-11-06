@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 7.1.1">
+    <meta name="description" content="Создайте меню, определив пункты, локализовав каждый из них и отобразив полученную структуру данных.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Меню :: Hugo documentation">
+    <meta name="twitter:description" content="Создайте меню, определив пункты, локализовав каждый из них и отобразив полученную структуру данных.">
+    <meta property="og:url" content="http://localhost:1313/content-management/menus/index.html">
+    <meta property="og:site_name" content="Hugo documentation">
+    <meta property="og:title" content="Меню :: Hugo documentation">
+    <meta property="og:description" content="Создайте меню, определив пункты, локализовав каждый из них и отобразив полученную структуру данных.">
+    <meta property="og:locale" content="ru">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Управление содержимым">
+    <meta property="article:published_time" content="2024-11-06T12:49:50+05:00">
+    <meta property="article:modified_time" content="2024-11-06T12:49:50+05:00">
+    <meta itemprop="name" content="Меню :: Hugo documentation">
+    <meta itemprop="description" content="Создайте меню, определив пункты, локализовав каждый из них и отобразив полученную структуру данных.">
+    <meta itemprop="datePublished" content="2024-11-06T12:49:50+05:00">
+    <meta itemprop="dateModified" content="2024-11-06T12:49:50+05:00">
+    <meta itemprop="wordCount" content="718">
+    <meta itemprop="keywords" content="menus">
+    <title>Меню :: Hugo documentation</title>
+    <link href="/css/fontawesome-all.min.css?1730886330" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1730886330" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1730886330" rel="stylesheet">
+    <link href="/css/auto-complete.css?1730886330" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1730886330" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1730886330" rel="stylesheet">
+    <link href="/css/fonts.css?1730886330" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1730886330" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1730886330" rel="stylesheet">
+    <link href="/css/theme-auto.css?1730886330" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-auto.css?1730886330" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/print.css?1730886330" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1730886330"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'auto' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/content-management/menus/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#обзор">Обзор</a></li>
+    <li><a href="#автоматическое-определение">Автоматическое определение</a></li>
+    <li><a href="#определение-на-главной-странице">Определение на главной странице</a>
+      <ul>
+        <li><a href="#properties-front-matter">Свойства</a></li>
+        <li><a href="#example-front-matter">Пример</a></li>
+      </ul>
+    </li>
+    <li><a href="#define-in-site-configuration">Define in site configuration</a>
+      <ul>
+        <li><a href="#properties-site-configuration">Свойства</a></li>
+        <li><a href="#example-site-configuration">Example</a></li>
+      </ul>
+    </li>
+    <li><a href="#локализация">Локализация</a></li>
+    <li><a href="#render">Render</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Самый быстрый в мире фреймворк для создания сайтов</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/content-management/index.html"><span itemprop="name">Управление содержимым</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Меню</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/content-management/index.html" title="Управление содержимым (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/about/index.html" title="О Hugo (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable content-management" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="меню">Меню</h1>
+
+<h2 id="обзор">Обзор</h2>
+<p>Чтобы создать меню для вашего сайта, выполните следующие действия:</p>
+<ol>
+<li>Определите пункты меню</li>
+<li><a href="/content-management/multilingual/#menus">Локализуйте</a> каждый пункт</li>
+<li>Оформите меню в виде <a href="/templates/menu/">шаблона</a></li>
+</ol>
+<p>Создайте несколько меню, плоских или вложенных. Например, создайте главное меню для верхнего колонтитула и отдельное меню для нижнего колонтитула.</p>
+<p>Существует три способа определения пунктов меню:</p>
+<ol>
+<li>Автоматически</li>
+<li>На главной странице</li>
+<li>В конфигурации сайта</li>
+</ol>
+<blockquote>
+<p>Хотя вы можете использовать эти методы в комбинации при определении меню, меню будет проще концептуализировать и поддерживать, если вы будете использовать один метод для всего сайта.</p>
+</blockquote>
+<h2 id="автоматическое-определение">Автоматическое определение</h2>
+<p>Чтобы автоматически определить пункт меню для каждого верхнего уровня <a href="https://gohugo.io/getting-started/glossary/#section" rel="external" target="_blank">раздела</a> вашего сайта, включите меню страниц раздела в конфигурации сайта.     </p>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">sectionPagesMenu</span>: <span style="color:#ae81ff">main</span></span></span></code></pre></div>
+<p>Это создает структуру меню, к которой вы можете обращаться с помощью <code>site.Menus.main</code> в ваших шаблонах. Подробности см. в разделе <a href="/templates/menu/">Шаблоны меню</a>.</p>
+<h2 id="определение-на-главной-странице">Определение на главной странице</h2>
+<p>Чтобы добавить страницу в &ldquo;Главное&rdquo; (main) меню:</p>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">menus</span>: <span style="color:#ae81ff">main</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#ae81ff">About</span>
+</span></span><span style="display:flex;"><span>---</span></span></code></pre></div>
+<p>Обратитесь к записи с помощью <code>site.Menus.main</code> в ваших шаблонах. Подробности см. в разделе <a href="/templates/menu/">Шаблоны меню</a>.</p>
+<p>Чтобы добавить страницу в меню «главная» и «нижний колонтитул»:</p>
+<p>content/contact.md</p>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">menus</span>:
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">main</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">footer</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#ae81ff">Contact</span>
+</span></span><span style="display:flex;"><span>---</span></span></code></pre></div>
+<p>В ваших шаблонах доступ к этому пункту осуществляется с помощью <code>site.Menus.main</code> и <code>site.Menus.footer</code>. Подробности см. в разделе <a href="/templates/menu/">Шаблоны меню</a>.</p>
+<p>В приведенных выше примерах ключом конфигурации является <code>menus</code>. Ключ конфигурации <code>menu</code> (единственное число) является псевдонимом для <code>menus</code>.</p>
+<h3 id="properties-front-matter">Свойства</h3>
+<p>Use these properties when defining menu entries in front matter:</p>
+<dl>
+<dt>identifier</dt>
+<dd>(<code>string</code>) Required when two or more menu entries have the same <code>name</code>, or when localizing the <code>name</code> using translation tables. Must start with a letter, followed by letters, digits, or underscores.</dd>
+<dt>name</dt>
+<dd>(<code>string</code>) The text to display when rendering the menu entry.</dd>
+<dt>params</dt>
+<dd>(<code>map</code>) User-defined properties for the menu entry.</dd>
+<dt>parent</dt>
+<dd>(<code>string</code>) The <code>identifier</code> of the parent menu entry. If <code>identifier</code> is not defined, use <code>name</code>. Required for child entries in a nested menu.</dd>
+<dt>post</dt>
+<dd>(<code>string</code>) The HTML to append when rendering the menu entry.</dd>
+<dt>pre</dt>
+<dd>(<code>string</code>) The HTML to prepend when rendering the menu entry.</dd>
+<dt>title</dt>
+<dd>(<code>string</code>) The HTML <code>title</code> attribute of the rendered menu entry.</dd>
+<dt>weight</dt>
+<dd>(<code>int</code>) A non-zero integer indicating the entry&rsquo;s position relative the root of the menu, or to its parent for a child entry. Lighter entries float to the top, while heavier entries sink to the bottom.</dd>
+</dl>
+<h3 id="example-front-matter">Пример</h3>
+<p>This front matter menu entry demonstrates some of the available properties:</p>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">menus</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">main</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#ae81ff">center</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">parent</span>: <span style="color:#ae81ff">Products</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">pre</span>: <span style="color:#ae81ff">&lt;i class=&#34;fa-solid fa-code&#34;&gt;&lt;/i&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#ae81ff">Software</span>
+</span></span><span style="display:flex;"><span>---</span></span></code></pre></div>
+<p>Access the entry with <code>site.Menus.main</code> in your templates. See [menu templates] for details.</p>
+<h2 id="define-in-site-configuration">Define in site configuration</h2>
+<p>Чтобы определить пункты &ldquo;главного&rdquo; меню:</p>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">menus</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">main</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Home</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">pageRef</span>: <span style="color:#ae81ff">/</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Products</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">pageRef</span>: <span style="color:#ae81ff">/products</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Services</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">pageRef</span>: <span style="color:#ae81ff">/services</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">30</span></span></span></code></pre></div>
+<p>This creates a menu structure that you can access with <code>site.Menus.main</code> in your templates. See [menu templates] for details.</p>
+<p>Чтобы определить пункты для меню &ldquo;нижний колонтитул&rdquo; (footer):</p>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">menus</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">footer</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Terms</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">pageRef</span>: <span style="color:#ae81ff">/terms</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Privacy</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">pageRef</span>: <span style="color:#ae81ff">/privacy</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">20</span></span></span></code></pre></div>
+<p>This creates a menu structure that you can access with <code>site.Menus.footer</code> in your templates. See [menu templates] for details.</p>
+<blockquote>
+<p>The configuration key in the examples above is <code>menus</code>. The <code>menu</code> (singular) configuration key is an alias for <code>menus</code>.</p>
+</blockquote>
+<h3 id="properties-site-configuration">Свойства</h3>
+<blockquote>
+<p>The <a href="/content-management/menus/index.html#properties-front-matter">properties available to entries defined in front matter</a> are also available to entries defined in site configuration.</p>
+</blockquote>
+<p>Each menu entry defined in site configuration requires two or more properties:</p>
+<ul>
+<li>Specify <code>name</code> and <code>pageRef</code> for internal links</li>
+<li>Specify <code>name</code> and <code>url</code> for external links</li>
+</ul>
+<dl>
+<dt>pageRef</dt>
+<dd>(<code>string</code>) The logical path of the target page, relative to the <code>content</code> directory. Omit language code and file extension. Required for <em>internal</em> links.</dd>
+</dl>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Kind</th>
+          <th style="text-align: left">pageRef</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">home</td>
+          <td style="text-align: left"><code>/</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">page</td>
+          <td style="text-align: left"><code>/books/book-1</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">section</td>
+          <td style="text-align: left"><code>/books</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">taxonomy</td>
+          <td style="text-align: left"><code>/tags</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">term</td>
+          <td style="text-align: left"><code>/tags/foo</code></td>
+      </tr>
+  </tbody>
+</table>
+<dl>
+<dt>url</dt>
+<dd>(<code>string</code>) Required for <em>external</em> links.</dd>
+</dl>
+<h3 id="example-site-configuration">Example</h3>
+<p>This nested menu demonstrates some of the available properties:</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>[[menus.main]]
+name = &#39;Products&#39;
+pageRef = &#39;/products&#39;
+weight = 10
+
+[[menus.main]]
+name = &#39;Hardware&#39;
+pageRef = &#39;/products/hardware&#39;
+parent = &#39;Products&#39;
+weight = 1
+
+[[menus.main]]
+name = &#39;Software&#39;
+pageRef = &#39;/products/software&#39;
+parent = &#39;Products&#39;
+weight = 2
+
+[[menus.main]]
+name = &#39;Services&#39;
+pageRef = &#39;/services&#39;
+weight = 20
+
+[[menus.main]]
+name = &#39;Hugo&#39;
+pre = &#39;&lt;i class=&#34;fa fa-heart&#34;&gt;&lt;/i&gt;&#39;
+url = &#39;https://gohugo.io/&#39;
+weight = 30
+[menus.main.params]
+rel = &#39;external&#39;</code></pre></div>
+<p>This creates a menu structure that you can access with <code>site.Menus.main</code> in your templates. See [menu templates] for details.</p>
+<h2 id="локализация">Локализация</h2>
+<p>Hugo provides two methods to localize your menu entries. See <a href="/content-management/multilingual/#menus">мультиязычность</a>.</p>
+<h2 id="render">Render</h2>
+<p>See [menu templates].</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/content-management/index.html">Content Management</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+Hugo documentation
+          </a>
+        </div>
+        <script>
+          window.index_js_url="/searchindex.en.js?1730886330";
+        </script>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['ru'];
+        </script>
+        <script src="/js/auto-complete.js?1730886330" defer></script>
+        <script src="/js/lunr/lunr.min.js?1730886330" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1730886330" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1730886330" defer></script>
+        <script src="/js/lunr/lunr.ru.min.js?1730886330" defer></script>
+        <script src="/js/search.js?1730886330" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-shortcutmenu-home" class="R-sidebarmenu">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/content-management/index.html"><a class="padding" href="/content-management/index.html">Управление содержимым</a><ul id="R-subsections-b22e9295ebacc9c2ea9469171d074ddd" class="collapsible-menu">
+            <li class="active " data-nav-id="/content-management/menus/index.html"><a class="padding" href="/content-management/menus/index.html">Меню</a></li></ul></li>
+            <li class="" data-nav-id="/about/index.html"><a class="padding" href="/about/index.html">О Hugo</a><ul id="R-subsections-77102f70526b1c2db0eced54632dc618" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+    
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/content-management/menus/index.html" lang="ru" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+        <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1730886330" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1730886330" defer></script>
+    <script src="/js/theme.js?1730886330" defer></script>
+  </body>
+</html>

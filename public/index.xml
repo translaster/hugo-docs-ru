@@ -6,8 +6,15 @@
     <description>Hugo - один из самых популярных генераторов статических сайтов с открытым исходным кодом. Благодаря своей удивительной скорости и гибкости Hugo делает создание сайтов снова увлекательным занятием.</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Wed, 06 Nov 2024 11:26:35 +0500</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 12:49:50 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Управление содержимым</title>
+      <link>http://localhost:1313/content-management/index.html</link>
+      <pubDate>Wed, 06 Nov 2024 12:49:50 +0500</pubDate>
+      <guid>http://localhost:1313/content-management/index.html</guid>
+      <description>Hugo упрощает управление большими статическими сайтами благодаря поддержке архетипов, типов контента, меню, перекрестных ссылок, резюме и многого другого.</description>
+    </item>
     <item>
       <title>О Hugo</title>
       <link>http://localhost:1313/about/index.html</link>
