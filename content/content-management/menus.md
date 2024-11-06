@@ -72,35 +72,35 @@ title: Contact
 
 ### Свойства {#properties-front-matter}
 
-Use these properties when defining menu entries in front matter:
+Используйте эти свойства при определении пунктов меню во фронтальном материале:
 
 identifier
-: (`string`) Required when two or more menu entries have the same `name`, or when localizing the `name` using translation tables. Must start with a letter, followed by letters, digits, or underscores.
+: (`string`) Требуется, когда два или более пункта меню имеют одинаковое `name`, или при локализации `name` с помощью таблиц перевода. Должно начинаться с буквы, за которой следуют буквы, цифры или символы подчеркивания.
 
 name
-: (`string`) The text to display when rendering the menu entry.
+: (`string`) Текст, который будет отображаться при рендеринге пункта меню.
 
 params
-: (`map`) User-defined properties for the menu entry.
+: (`map`) Пользовательские свойства для пункта меню.
 
 parent
-: (`string`) The `identifier` of the parent menu entry. If `identifier` is not defined, use `name`. Required for child entries in a nested menu.
+: (`string`) `identifier` родительского пункта меню. Если `identifier` не определен, используйте `name`. Требуется для дочерних пунктов во вложенном меню.
 
 post
-: (`string`) The HTML to append when rendering the menu entry.
+: (`string`) HTML, добавляемый при отображении пункта меню.
 
 pre
-: (`string`) The HTML to prepend when rendering the menu entry.
+: (`string`) HTML для добавления при отображении пункта меню.
 
 title
-: (`string`) The HTML `title` attribute of the rendered menu entry.
+: (`string`) Атрибут HTML `title` отображаемого пункта меню.
 
 weight
-: (`int`) A non-zero integer indicating the entry's position relative the root of the menu, or to its parent for a child entry. Lighter entries float to the top, while heavier entries sink to the bottom.
+: (`int`) Целое ненулевое число, указывающее на позицию пункта относительно корня меню или его родителя для дочернего пункта. Более легкие пункты плавают вверху, а более тяжелые опускаются вниз.
 
 ### Пример {#example-front-matter}
 
-This front matter menu entry demonstrates some of the available properties:
+Этот пункт меню первой страницы демонстрирует некоторые из доступных свойств:
 
 ```yaml
 ---
@@ -115,9 +115,9 @@ title: Software
 ---
 ```
 
-Access the entry with `site.Menus.main` in your templates. See [menu templates] for details.
+Обратитесь к записи с помощью `site.Menus.main` в ваших шаблонах. Подробности см. в разделе [Шаблоны меню].
 
-## Define in site configuration
+## Определение в конфигурации сайта
 
 Чтобы определить пункты "главного" меню:
 
@@ -135,7 +135,7 @@ menus:
     weight: 30
 ```
 
-This creates a menu structure that you can access with `site.Menus.main` in your templates. See [menu templates] for details.
+Это создает структуру меню, к которой вы можете обращаться с помощью `site.Menus.main` в ваших шаблонах. Подробности см. в разделе [Шаблоны меню].
 
 Чтобы определить пункты для меню "нижний колонтитул" (footer):
 
@@ -150,26 +150,24 @@ menus:
     weight: 20
 ```
 
-This creates a menu structure that you can access with `site.Menus.footer` in your templates. See [menu templates] for details.
+Это создает структуру меню, к которой вы можете обращаться с помощью `site.Menus.footer` в ваших шаблонах. Подробности см. в разделе [Шаблоны меню](https://gohugo.io/templates/menu/).
 
-> The configuration key in the examples above is `menus`. The `menu` (singular) configuration key is an alias for `menus`.
+> В приведенных выше примерах ключом конфигурации является `menus`. Ключ конфигурации `menu` (единственное число) является псевдонимом для `menus`.
 
 
 ### Свойства {#properties-site-configuration}
 
+> [Свойства, доступные для пунктов меню, определенных на главной странице], также доступны для пунктов меню, определенных в конфигурации сайта.
 
-> The [properties available to entries defined in front matter] are also available to entries defined in site configuration.
+[Свойства, доступные для пунктов меню, определенных на главной странице]: /content-management/menus/#properties-front-matter
 
-[properties available to entries defined in front matter]: /content-management/menus/#properties-front-matter
+Каждый пункт меню, определенный в конфигурации сайта, требует двух или более свойств:
 
-
-Each menu entry defined in site configuration requires two or more properties:
-
-- Specify `name` and `pageRef` for internal links
-- Specify `name` and `url` for external links
+- Укажите `name` и `pageRef` для внутренних ссылок
+- Укажите `name` и `url` для внешних ссылок
 
 pageRef
-: (`string`) The logical path of the target page, relative to the `content` directory. Omit language code and file extension. Required for *internal* links.
+: (`string`) Логический путь к целевой странице, относительно каталога `content`. Опустите код языка и расширение файла. Требуется для *внутренних* ссылок.
 
 Kind|pageRef
 :--|:--
@@ -180,11 +178,36 @@ taxonomy|`/tags`
 term|`/tags/foo`
 
 url
-: (`string`) Required for *external* links.
+: (`string`) Требуется для *внешних* ссылок.
 
-### Example {#example-site-configuration}
+### Пример {#example-site-configuration}
 
-This nested menu demonstrates some of the available properties:
+Это вложенное меню демонстрирует некоторые из доступных свойств:
+
+```hugo.yaml
+menus:
+  main:
+  - name: Products
+    pageRef: /products
+    weight: 10
+  - name: Hardware
+    pageRef: /products/hardware
+    parent: Products
+    weight: 1
+  - name: Software
+    pageRef: /products/software
+    parent: Products
+    weight: 2
+  - name: Services
+    pageRef: /services
+    weight: 20
+  - name: Hugo
+    params:
+      rel: external
+    pre: <i class="fa fa-heart"></i>
+    url: https://gohugo.io/
+    weight: 30
+```
 
 ```
 [[menus.main]]
@@ -218,15 +241,15 @@ weight = 30
 rel = 'external'
 ```
 
-This creates a menu structure that you can access with `site.Menus.main` in your templates. See [menu templates] for details.
+Это создает структуру меню, к которой вы можете обращаться с помощью `site.Menus.main` в ваших шаблонах. Подробности см. в разделе [Шаблоны меню].
 
 ## Локализация
 
-Hugo provides two methods to localize your menu entries. See [мультиязычность].
+Hugo предоставляет два метода локализации пунктов меню. Смотрите [мультиязычность].
 
-## Render
+## Рендер
 
-See [menu templates].
+Смотри [шаблоны меню].
 
 [локализуйте]: /content-management/multilingual/#menus
 [шаблоны меню]: /templates/menu/
