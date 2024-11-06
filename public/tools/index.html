@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 7.1.1">
+    <meta name="description" content="В дополнение к мощному CLI Hugo существует большое количество цепочек инструментов, разработанных сообществом для разработчиков Hugo.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/gohugoio-card.png">
+    <meta name="twitter:title" content="Инструменты разработчика :: Hugo Docs">
+    <meta name="twitter:description" content="В дополнение к мощному CLI Hugo существует большое количество цепочек инструментов, разработанных сообществом для разработчиков Hugo.">
+  <meta name="twitter:site" content="@GoHugoIOv2"/>
+    <meta property="og:url" content="http://localhost:1313/tools/index.html">
+    <meta property="og:site_name" content="Hugo Docs">
+    <meta property="og:title" content="Инструменты разработчика :: Hugo Docs">
+    <meta property="og:description" content="В дополнение к мощному CLI Hugo существует большое количество цепочек инструментов, разработанных сообществом для разработчиков Hugo.">
+    <meta property="og:locale" content="ru">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/images/gohugoio-card.png">
+    <meta itemprop="name" content="Инструменты разработчика :: Hugo Docs">
+    <meta itemprop="description" content="В дополнение к мощному CLI Hugo существует большое количество цепочек инструментов, разработанных сообществом для разработчиков Hugo.">
+    <meta itemprop="datePublished" content="2024-11-06T16:55:01+05:00">
+    <meta itemprop="dateModified" content="2024-11-06T16:55:01+05:00">
+    <meta itemprop="wordCount" content="65">
+    <meta itemprop="image" content="http://localhost:1313/images/gohugoio-card.png">
+    <title>Инструменты разработчика :: Hugo Docs</title>
+    <link href="/tools/index.xml" rel="alternate" type="application/rss+xml" title="Инструменты разработчика :: Hugo Docs">
+    <link href="/css/fontawesome-all.min.css?1730897380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1730897380" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1730897380" rel="stylesheet">
+    <link href="/css/auto-complete.css?1730897380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1730897380" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1730897380" rel="stylesheet">
+    <link href="/css/fonts.css?1730897380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1730897380" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1730897380" rel="stylesheet">
+    <link href="/css/theme-auto.css?1730897380" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-auto.css?1730897380" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/print.css?1730897380" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1730897380"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'auto' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Копировать в буфер`;
+      window.T_Copied_to_clipboard = `Скопировано в буфер обмена!`;
+      window.T_Copy_link_to_clipboard = `Скопировать ссылку в буфер обмена`;
+      window.T_Link_copied_to_clipboard = `Ссылка скопирована в буфер обмена!`;
+      window.T_Reset_view = `Вид на сброс`;
+      window.T_View_reset = `Посмотреть сброс!`;
+      window.T_No_results_found = `Ничего не найдено для "{0}"`;
+      window.T_N_results_found = `{1} результатов найдено для "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/tools/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Меню (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Оглавление (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Самый быстрый в мире фреймворк для создания сайтов</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Инструменты разработчика</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/documentation/index.html" title="Документация Hugo (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/content-management/index.html" title="Управление содержимым (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Еще"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable tools" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="инструменты-разработчика">Инструменты разработчика</h1>
+
+<p>Одна из самых сильных сторон Hugo - его увлеченное и постоянно развивающееся сообщество разработчиков. За исключением шорткода <code>highlight</code>, упомянутого в разделе <a href="/content-management/syntax-highlighting/">Подсветка синтаксиса</a>, инструменты и другие проекты, представленные в этом разделе, являются предложениями как коммерческих сервисов, так и проектов с открытым исходным кодом, многие из которых разработаны такими же разработчиками Hugo, как и вы.</p>
+<p><a href="https://staticgen.com" rel="external" target="_blank">Посмотрите на популярность Hugo по сравнению с другими генераторами статических сайтов.</a></p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+Hugo Docs
+          </a>
+        </div>
+        <script>
+          window.index_js_url="/searchindex.ru.js?1730897380";
+        </script>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Поиск (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Поиск</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Поиск...">
+            <button class="search-clear" type="button" data-search-clear="" title="Очистить поиск"><i class="fas fa-times" title="Очистить поиск"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['ru'];
+        </script>
+        <script src="/js/auto-complete.js?1730897380" defer></script>
+        <script src="/js/lunr/lunr.min.js?1730897380" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1730897380" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1730897380" defer></script>
+        <script src="/js/lunr/lunr.ru.min.js?1730897380" defer></script>
+        <script src="/js/search.js?1730897380" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-shortcutmenu-home" class="R-sidebarmenu">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/documentation/index.html"><a class="padding" href="/documentation/index.html">Hugo</a></li>
+            <li class="active " data-nav-id="/tools/index.html"><a class="padding" href="/tools/index.html">Инструменты разработчика</a></li>
+            <li class="" data-nav-id="/content-management/index.html"><a class="padding" href="/content-management/index.html">Управление содержимым</a><ul id="R-subsections-b22e9295ebacc9c2ea9469171d074ddd" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/about/index.html"><a class="padding" href="/about/index.html">О Hugo</a><ul id="R-subsections-77102f70526b1c2db0eced54632dc618" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/commands/index.html"><a class="padding" href="/commands/index.html">Commands</a><ul id="R-subsections-118e8fa4eebe2c925610d50578ae00e0" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+    
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Язык</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-ru" value="#R-select-language-ru" data-url="/tools/index.html" lang="ru" selected>Russian</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Тема</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Очистить историю</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+        <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1730897380" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1730897380" defer></script>
+    <script src="/js/theme.js?1730897380" defer></script>
+  </body>
+</html>

@@ -15,8 +15,8 @@ Hugo оптимизирован для скорости и разработан 
 
 [bep]: https://github.com/bep
 [spf13]: https://github.com/spf13
-[friends]: https://github.com/gohugoio/hugo/graphs/contributors
+[друзьями]: https://github.com/gohugoio/hugo/graphs/contributors
 [go]: https://go.dev/
-[static site generator]: https://en.wikipedia.org/wiki/Static_site_generator
+[генератор статических сайтов]: https://en.wikipedia.org/wiki/Static_site_generator
 
 Ниже вы найдете несколько наиболее распространенных и полезных страниц из нашей документации.

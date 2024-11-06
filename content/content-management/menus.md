@@ -11,6 +11,8 @@ weight: 190
 toc: true
 aliases: [/extras/menus/]
 date: 2024-11-06T12:49:50+05:00
+params:
+  ShowCodeCopyButtons: false
 ---
 
 ## Обзор

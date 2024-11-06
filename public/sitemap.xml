@@ -4,6 +4,10 @@
     <loc>http://localhost:1313/documentation/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/tools/index.html</loc>
+    <lastmod>2024-11-06T16:55:01+05:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/content-management/index.html</loc>
     <lastmod>2024-11-06T12:49:50+05:00</lastmod>
   </url>
@@ -35,15 +39,23 @@
     <lastmod>2024-11-06T12:49:50+05:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/commands/index.html</loc>
+    <lastmod>2024-11-06T17:02:23+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/commands/hugo/index.html</loc>
+    <lastmod>2024-11-06T17:02:23+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/index.html</loc>
+    <lastmod>2024-11-06T17:02:23+05:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/categories/index.html</loc>
     <lastmod>2024-11-06T12:49:50+05:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/categories/content-management/index.html</loc>
-    <lastmod>2024-11-06T12:49:50+05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/index.html</loc>
     <lastmod>2024-11-06T12:49:50+05:00</lastmod>
   </url>
   <url>
