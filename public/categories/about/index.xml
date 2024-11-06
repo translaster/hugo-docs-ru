@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About :: Category :: Hugo documentation</title>
+    <link>http://localhost:1313/categories/about/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 06 Nov 2024 11:26:35 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Введение</title>
+      <link>http://localhost:1313/about/introduction/index.html</link>
+      <pubDate>Wed, 06 Nov 2024 11:23:46 +0500</pubDate>
+      <guid>http://localhost:1313/about/introduction/index.html</guid>
+      <description>Hugo - это генератор статических сайтов, написанный на языке Go, оптимизированный для скорости и разработанный для гибкости.</description>
+    </item>
+    <item>
+      <title>Функциональность</title>
+      <link>http://localhost:1313/about/features/index.html</link>
+      <pubDate>Wed, 06 Nov 2024 11:18:33 +0500</pubDate>
+      <guid>http://localhost:1313/about/features/index.html</guid>
+      <description>Богатый и мощный набор функций Hugo обеспечивает основу и инструменты для создания статических сайтов, создаваемых за несколько секунд, а зачастую и меньше.</description>
+    </item>
+    <item>
+      <title>Приватность</title>
+      <link>http://localhost:1313/about/privacy/index.html</link>
+      <pubDate>Wed, 06 Nov 2024 11:26:27 +0500</pubDate>
+      <guid>http://localhost:1313/about/privacy/index.html</guid>
+      <description>Настройте свой сайт так, чтобы он соответствовал региональным нормам конфиденциальности.</description>
+    </item>
+    <item>
+      <title>Модель безопасности</title>
+      <link>http://localhost:1313/about/security/index.html</link>
+      <pubDate>Wed, 06 Nov 2024 11:26:35 +0500</pubDate>
+      <guid>http://localhost:1313/about/security/index.html</guid>
+      <description>Краткое описание модели безопасности Hugo.</description>
+    </item>
+    <item>
+      <title>Лицензия</title>
+      <link>http://localhost:1313/about/license/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/license/index.html</guid>
+      <description>Hugo распространяется под Apache 2.0 license.</description>
+    </item>
+  </channel>
+</rss>

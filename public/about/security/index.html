@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 7.1.1">
+    <meta name="description" content="Краткое описание модели безопасности Hugo.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Модель безопасности :: Hugo documentation">
+    <meta name="twitter:description" content="Краткое описание модели безопасности Hugo.">
+    <meta property="og:url" content="http://localhost:1313/about/security/index.html">
+    <meta property="og:site_name" content="Hugo documentation">
+    <meta property="og:title" content="Модель безопасности :: Hugo documentation">
+    <meta property="og:description" content="Краткое описание модели безопасности Hugo.">
+    <meta property="og:locale" content="ru">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="О Hugo">
+    <meta property="article:published_time" content="2024-11-06T11:26:35+05:00">
+    <meta property="article:modified_time" content="2024-11-06T11:26:35+05:00">
+    <meta itemprop="name" content="Модель безопасности :: Hugo documentation">
+    <meta itemprop="description" content="Краткое описание модели безопасности Hugo.">
+    <meta itemprop="datePublished" content="2024-11-06T11:26:35+05:00">
+    <meta itemprop="dateModified" content="2024-11-06T11:26:35+05:00">
+    <meta itemprop="wordCount" content="516">
+    <meta itemprop="keywords" content="security,privacy">
+    <title>Модель безопасности :: Hugo documentation</title>
+    <link href="/css/fontawesome-all.min.css?1730874975" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1730874975" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1730874975" rel="stylesheet">
+    <link href="/css/auto-complete.css?1730874975" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1730874975" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1730874975" rel="stylesheet">
+    <link href="/css/fonts.css?1730874975" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1730874975" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1730874975" rel="stylesheet">
+    <link href="/css/theme-auto.css?1730874975" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-auto.css?1730874975" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/print.css?1730874975" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1730874975"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'auto' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/about/security/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#runtime-security">Runtime security</a></li>
+    <li><a href="#security-policy">Security policy</a></li>
+    <li><a href="#dependency-security">Dependency security</a></li>
+    <li><a href="#web-application-security">Web application security</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Самый быстрый в мире фреймворк для создания сайтов</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/about/index.html"><span itemprop="name">О Hugo</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Безопасность</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/about/privacy/index.html" title="Приватность (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/about/license/index.html" title="Лицензия (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable about" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="модель-безопасности">Модель безопасности</h1>
+
+<h2 id="runtime-security">Runtime security</h2>
+<p>Hugo produces static output, so once built, the runtime is the browser (assuming the output is HTML) and any server (API) that you integrate with.</p>
+<p>But when developing and building your site, the runtime is the <code>hugo</code> executable. Securing a runtime can be <a href="https://blog.logrocket.com/how-to-protect-your-node-js-applications-from-malicious-dependencies-5f2e60ea08f9/" rel="external" target="_blank">a real challenge</a>.</p>
+<p><strong>Hugo&rsquo;s main approach is that of sandboxing and a security policy with strict defaults:</strong></p>
+<ul>
+<li>Hugo has a virtual file system and only the main project (not third-party components) is allowed to mount directories or files outside the project root.</li>
+<li>User-defined components have read-only access to the filesystem.</li>
+<li>We shell out to some external binaries to support <a href="/content-management/formats/#formats">Asciidoctor</a> and similar, but those binaries and their flags are predefined and disabled by default (see <a href="/about/security/index.html#security-policy">Security Policy</a>). General functions to run arbitrary external OS commands have been <a href="https://github.com/gohugoio/hugo/issues/796" rel="external" target="_blank">discussed</a>, but not implemented because of security concerns.</li>
+</ul>
+<h2 id="security-policy">Security policy</h2>
+<p>Hugo has a built-in security policy that restricts access to <a href="https://pkg.go.dev/os/exec" rel="external" target="_blank">os/exec</a>, remote communication and similar.</p>
+<p>The default configuration is listed below. Any build using features not in the allow list of the security policy will fail with a detailed message about what needs to be done. Most of these settings are allow lists (string or slice, <a href="https://pkg.go.dev/regexp" rel="external" target="_blank">Regular Expressions</a> or <code>none</code> which matches nothing).</p>
+<p>By default, Hugo permits the <a href="/functions/resources/getremote"><code>resources.GetRemote</code></a> function to download files with media types corresponding to an internal allow list. To add media types to the allow list:</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>[security.http]
+  mediaTypes = [&#39;^image/avif$&#39;]</code></pre></div>
+<p>Note that these and other configuration settings in Hugo can be overridden by the OS environment. For example, if you want to block all remote HTTP fetching of data:</p>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>HUGO_SECURITY_HTTP_URLS=none hugo</span></span></code></pre></div>
+<h2 id="dependency-security">Dependency security</h2>
+<p>Hugo is built as a static binary using <a href="https://github.com/golang/go/wiki/Modules" rel="external" target="_blank">Go Modules</a> to manage its dependencies. Go Modules have several safeguards, one of them being the <code>go.sum</code> file. This is a database of the expected cryptographic checksums of all of your dependencies, including transitive dependencies.</p>
+<p><a href="/hugo-modules/">Hugo Modules</a> is a feature built on top of the functionality of Go Modules. Like Go Modules, a Hugo project using Hugo Modules will have a <code>go.sum</code> file. We recommend that you commit this file to your version control system. The Hugo build will fail if there is a checksum mismatch, which would be an indication of <a href="https://julienrenaux.fr/2019/12/20/github-actions-security-risk/" rel="external" target="_blank">dependency tampering</a>.</p>
+<h2 id="web-application-security">Web application security</h2>
+<p>These are the security threats as defined by <a href="https://en.wikipedia.org/wiki/OWASP" rel="external" target="_blank">OWASP</a>.</p>
+<p>For HTML output, this is the core security model:</p>
+<p><a href="https://pkg.go.dev/html/template#hdr-Security_Model" rel="external" target="_blank">https://pkg.go.dev/html/template#hdr-Security_Model</a></p>
+<p>In short:</p>
+<p>Template and configuration authors (you) are trusted, but the data you send in is not.
+This is why you sometimes need to use the <em>safe</em> functions, such as <code>safeHTML</code>, to avoid escaping of data you know is safe.
+There is one exception to the above, as noted in the documentation: If you enable inline shortcodes, you also say that the shortcodes and data handling in content files are trusted, as those macros are treated as pure text.
+It may be worth adding that Hugo is a static site generator with no concept of dynamic user input.</p>
+<p>For content, the default Markdown renderer is <a href="/getting-started/configuration-markup">configured</a> to remove or escape potentially unsafe content. This behavior can be reconfigured if you trust your content.</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/about/index.html">About</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+Hugo documentation
+          </a>
+        </div>
+        <script>
+          window.index_js_url="/searchindex.en.js?1730874975";
+        </script>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['ru'];
+        </script>
+        <script src="/js/auto-complete.js?1730874975" defer></script>
+        <script src="/js/lunr/lunr.min.js?1730874975" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1730874975" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1730874975" defer></script>
+        <script src="/js/lunr/lunr.ru.min.js?1730874975" defer></script>
+        <script src="/js/search.js?1730874975" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-shortcutmenu-home" class="R-sidebarmenu">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/about/index.html"><a class="padding" href="/about/index.html">О Hugo</a><ul id="R-subsections-77102f70526b1c2db0eced54632dc618" class="collapsible-menu">
+            <li class="" data-nav-id="/about/introduction/index.html"><a class="padding" href="/about/introduction/index.html">Введение</a></li>
+            <li class="" data-nav-id="/about/features/index.html"><a class="padding" href="/about/features/index.html">Функциональность</a></li>
+            <li class="" data-nav-id="/about/privacy/index.html"><a class="padding" href="/about/privacy/index.html">Приватность</a></li>
+            <li class="active " data-nav-id="/about/security/index.html"><a class="padding" href="/about/security/index.html">Безопасность</a></li>
+            <li class="" data-nav-id="/about/license/index.html"><a class="padding" href="/about/license/index.html">Лицензия</a></li></ul></li>
+          </ul>
+        </div>
+    
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/about/security/index.html" lang="ru" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+        <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1730874975" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1730874975" defer></script>
+    <script src="/js/theme.js?1730874975" defer></script>
+  </body>
+</html>

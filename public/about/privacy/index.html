@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 7.1.1">
+    <meta name="description" content="Настройте свой сайт так, чтобы он соответствовал региональным нормам конфиденциальности.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Приватность :: Hugo documentation">
+    <meta name="twitter:description" content="Настройте свой сайт так, чтобы он соответствовал региональным нормам конфиденциальности.">
+    <meta property="og:url" content="http://localhost:1313/about/privacy/index.html">
+    <meta property="og:site_name" content="Hugo documentation">
+    <meta property="og:title" content="Приватность :: Hugo documentation">
+    <meta property="og:description" content="Настройте свой сайт так, чтобы он соответствовал региональным нормам конфиденциальности.">
+    <meta property="og:locale" content="ru">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="О Hugo">
+    <meta property="article:published_time" content="2024-11-06T11:26:27+05:00">
+    <meta property="article:modified_time" content="2024-11-06T11:26:27+05:00">
+    <meta itemprop="name" content="Приватность :: Hugo documentation">
+    <meta itemprop="description" content="Настройте свой сайт так, чтобы он соответствовал региональным нормам конфиденциальности.">
+    <meta itemprop="datePublished" content="2024-11-06T11:26:27+05:00">
+    <meta itemprop="dateModified" content="2024-11-06T11:26:27+05:00">
+    <meta itemprop="wordCount" content="534">
+    <meta itemprop="keywords" content="GDPR,Privacy,Data Protection">
+    <title>Приватность :: Hugo documentation</title>
+    <link href="/css/fontawesome-all.min.css?1730874975" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1730874975" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1730874975" rel="stylesheet">
+    <link href="/css/auto-complete.css?1730874975" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1730874975" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1730874975" rel="stylesheet">
+    <link href="/css/fonts.css?1730874975" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1730874975" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1730874975" rel="stylesheet">
+    <link href="/css/theme-auto.css?1730874975" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-auto.css?1730874975" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/print.css?1730874975" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1730874975"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'auto' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/about/privacy/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#all-privacy-settings">All privacy settings</a></li>
+    <li><a href="#disable-all-services">Disable all services</a></li>
+    <li><a href="#the-privacy-settings-explained">The privacy settings explained</a>
+      <ul>
+        <li><a href="#googleanalytics">GoogleAnalytics</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+        <li><a href="#twitter">Twitter</a></li>
+        <li><a href="#youtube">YouTube</a></li>
+        <li><a href="#vimeo">Vimeo</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Самый быстрый в мире фреймворк для создания сайтов</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/about/index.html"><span itemprop="name">О Hugo</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Приватность</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/about/features/index.html" title="Функциональность (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/about/security/index.html" title="Модель безопасности (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable about" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="приватность">Приватность</h1>
+
+<p>General Data Protection Regulation (<a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" rel="external" target="_blank">GDPR</a>) is a regulation in EU law on data protection and privacy for all individuals within the European Union and the European Economic Area. It became enforceable on 25 May 2018.</p>
+<p><strong>Hugo is a static site generator. By using Hugo you are already standing on very solid ground. Static HTML files on disk are much easier to reason about compared to server and database driven websites.</strong></p>
+<p>But even static websites can integrate with external services, so from version <code>0.41</code>, Hugo provides a <strong>privacy configuration</strong> that covers the relevant built-in templates.</p>
+<p>Note that:</p>
+<ul>
+<li>These settings have their defaults setting set to <em>off</em>, i.e. how it worked before Hugo <code>0.41</code>. You must do your own evaluation of your site and apply the appropriate settings.</li>
+<li>These settings work with the <a href="/templates/embedded/">embedded templates</a>. Some theme may contain custom templates for embedding services like Google Analytics. In that case these options have no effect.</li>
+<li>We will continue this work and improve this further in future Hugo versions.</li>
+</ul>
+<h2 id="all-privacy-settings">All privacy settings</h2>
+<p>Below are all privacy settings and their default value. These settings need to be put in your site configuration (e.g. <code>hugo.toml</code>).</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false</code></pre></div>
+<h2 id="disable-all-services">Disable all services</h2>
+<p>An example privacy configuration that disables all the relevant services in Hugo. With this configuration, the other settings will not matter.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true</code></pre></div>
+<h2 id="the-privacy-settings-explained">The privacy settings explained</h2>
+<h3 id="googleanalytics">GoogleAnalytics</h3>
+<dl>
+<dt>respectDoNotTrack</dt>
+<dd>Enabling this will make the GA templates respect the &ldquo;Do Not Track&rdquo; HTTP header.</dd>
+</dl>
+<h3 id="instagram">Instagram</h3>
+<dl>
+<dt>simple</dt>
+<dd>If simple mode is enabled, a static and no-JS version of the Instagram image card will be built. Note that this only supports image cards and the image itself will be fetched from Instagram&rsquo;s servers.</dd>
+</dl>
+<p><strong>Note:</strong> If you use the <em>simple mode</em> for Instagram and a site styled with Bootstrap 4, you may want to disable the inline styles provided by Hugo:</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>[services]
+  [services.instagram]
+    disableInlineCSS = true</code></pre></div>
+<h3 id="twitter">Twitter</h3>
+<dl>
+<dt>enableDNT</dt>
+<dd>Enabling this for the twitter/tweet shortcode, the tweet and its embedded page on your site are not used for purposes that include personalized suggestions and personalized ads.</dd>
+<dt>simple</dt>
+<dd>If simple mode is enabled, a static and no-JS version of a tweet will be built.</dd>
+</dl>
+<p><strong>Note:</strong> If you use the <em>simple mode</em> for Twitter, you may want to disable the inline styles provided by Hugo:</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>[services]
+  [services.twitter]
+    disableInlineCSS = true</code></pre></div>
+<h3 id="youtube">YouTube</h3>
+<dl>
+<dt>privacyEnhanced</dt>
+<dd>When you turn on privacy-enhanced mode, YouTube won’t store information about visitors on your website unless the user plays the embedded video.</dd>
+</dl>
+<h3 id="vimeo">Vimeo</h3>
+<dl>
+<dt>enableDNT</dt>
+<dd>Enabling this for the vimeo shortcode, the Vimeo player will be blocked from tracking any session data, including all cookies and stats.</dd>
+<dt>simple</dt>
+<dd>If simple mode is enabled, the video thumbnail is fetched from Vimeo&rsquo;s servers and it is overlaid with a play button. If the user clicks to play the video, it will open in a new tab directly on Vimeo&rsquo;s website.</dd>
+</dl>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/about/index.html">About</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+Hugo documentation
+          </a>
+        </div>
+        <script>
+          window.index_js_url="/searchindex.en.js?1730874975";
+        </script>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['ru'];
+        </script>
+        <script src="/js/auto-complete.js?1730874975" defer></script>
+        <script src="/js/lunr/lunr.min.js?1730874975" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1730874975" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1730874975" defer></script>
+        <script src="/js/lunr/lunr.ru.min.js?1730874975" defer></script>
+        <script src="/js/search.js?1730874975" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-shortcutmenu-home" class="R-sidebarmenu">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/about/index.html"><a class="padding" href="/about/index.html">О Hugo</a><ul id="R-subsections-77102f70526b1c2db0eced54632dc618" class="collapsible-menu">
+            <li class="" data-nav-id="/about/introduction/index.html"><a class="padding" href="/about/introduction/index.html">Введение</a></li>
+            <li class="" data-nav-id="/about/features/index.html"><a class="padding" href="/about/features/index.html">Функциональность</a></li>
+            <li class="active " data-nav-id="/about/privacy/index.html"><a class="padding" href="/about/privacy/index.html">Приватность</a></li>
+            <li class="" data-nav-id="/about/security/index.html"><a class="padding" href="/about/security/index.html">Безопасность</a></li>
+            <li class="" data-nav-id="/about/license/index.html"><a class="padding" href="/about/license/index.html">Лицензия</a></li></ul></li>
+          </ul>
+        </div>
+    
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/about/privacy/index.html" lang="ru" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+        <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1730874975" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1730874975" defer></script>
+    <script src="/js/theme.js?1730874975" defer></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Самый быстрый в мире фреймворк для создания сайтов :: Hugo documentation</title>
+    <link>http://localhost:1313/index.html</link>
+    <description>Hugo - один из самых популярных генераторов статических сайтов с открытым исходным кодом. Благодаря своей удивительной скорости и гибкости Hugo делает создание сайтов снова увлекательным занятием.</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 06 Nov 2024 11:26:35 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>О Hugo</title>
+      <link>http://localhost:1313/about/index.html</link>
+      <pubDate>Wed, 06 Nov 2024 11:26:35 +0500</pubDate>
+      <guid>http://localhost:1313/about/index.html</guid>
+      <description>Узнайте о Hugo и его возможностях, модели безопасности и защите конфиденциальности.</description>
+    </item>
+  </channel>
+</rss>

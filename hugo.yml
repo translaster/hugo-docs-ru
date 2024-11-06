@@ -1,0 +1,4 @@
+baseURL: 'https://atsip.ru/'
+languageCode: ru
+title: 'Hugo documentation'
+theme: hugo-theme-relearn

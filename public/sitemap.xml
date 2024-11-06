@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/about/index.html</loc>
+    <lastmod>2024-11-06T11:26:35+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/introduction/index.html</loc>
+    <lastmod>2024-11-06T11:23:46+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/features/index.html</loc>
+    <lastmod>2024-11-06T11:18:33+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/privacy/index.html</loc>
+    <lastmod>2024-11-06T11:26:27+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/license/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/security/index.html</loc>
+    <lastmod>2024-11-06T11:26:35+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/index.html</loc>
+    <lastmod>2024-11-06T11:26:35+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/about/index.html</loc>
+    <lastmod>2024-11-06T11:26:27+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/index.html</loc>
+    <lastmod>2024-11-06T11:26:27+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/index.html</loc>
+  </url>
+</urlset>
