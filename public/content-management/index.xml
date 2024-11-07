@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Управление содержимым :: Hugo Docs</title>
+    <title>Управление содержимым :: Справка Hugo</title>
     <link>http://localhost:1313/content-management/index.html</link>
     <description>Hugo упрощает управление большими статическими сайтами благодаря поддержке архетипов, типов контента, меню, перекрестных ссылок, резюме и многого другого.</description>
     <generator>Hugo</generator>

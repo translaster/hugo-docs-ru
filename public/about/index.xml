@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>О Hugo :: Hugo Docs</title>
+    <title>О Hugo :: Справка Hugo</title>
     <link>http://localhost:1313/about/index.html</link>
     <description>Узнайте о Hugo и его возможностях, модели безопасности и защите конфиденциальности.</description>
     <generator>Hugo</generator>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Инструменты разработчика :: Hugo Docs</title>
+    <title>Инструменты разработчика :: Справка Hugo</title>
     <link>http://localhost:1313/tools/index.html</link>
     <description>В дополнение к мощному CLI Hugo существует большое количество цепочек инструментов, разработанных сообществом для разработчиков Hugo.</description>
     <generator>Hugo</generator>

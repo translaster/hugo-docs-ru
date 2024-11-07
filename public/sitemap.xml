@@ -40,14 +40,30 @@
   </url>
   <url>
     <loc>http://localhost:1313/commands/index.html</loc>
-    <lastmod>2024-11-06T17:02:23+05:00</lastmod>
+    <lastmod>2024-11-07T18:11:59+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo/index.html</loc>
-    <lastmod>2024-11-06T17:02:23+05:00</lastmod>
+    <loc>http://localhost:1313/commands/hugo_config/index.html</loc>
+    <lastmod>2024-11-07T18:11:59+05:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/index.html</loc>
+    <lastmod>2024-11-07T18:11:59+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/commands/hugo_completion_zsh/index.html</loc>
+    <lastmod>2024-11-07T18:05:32+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/commands/hugo_completion/index.html</loc>
+    <lastmod>2024-11-06T17:44:58+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/commands/hugo_build/index.html</loc>
+    <lastmod>2024-11-06T17:38:21+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/commands/hugo/index.html</loc>
     <lastmod>2024-11-06T17:02:23+05:00</lastmod>
   </url>
   <url>

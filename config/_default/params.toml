@@ -1,4 +1,3 @@
-description = "Самый быстрый в мире фреймворк для создания сайтов"
 ## Setting this to true will add a "noindex" to *EVERY* page on the site.
 removefromexternalsearch = false
 ## Gh repo for site footer (include trailing slash)

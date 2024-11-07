@@ -27,7 +27,7 @@ hugo [flags]
   -D, --buildDrafts                включая содержимое, помеченное как черновик
   -E, --buildExpired               включить просроченное содержимое
   -F, --buildFuture                включать содержимое с датой публикации в будущем
-      --cacheDir string            filesystem path to cache directory
+      --cacheDir string            путь файловой системы к каталогу кэша
       --cleanDestinationDir        remove files from destination not found in static directories
       --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
       --config string              config file (default is hugo.yaml|json|toml)
@@ -40,18 +40,18 @@ hugo [flags]
   -e, --environment string         build environment
       --forceSyncStatic            copy all files when static is changed.
       --gc                         enable to run some cleanup tasks (remove unused cache files) after the build
-  -h, --help                       help for hugo
+  -h, --help                       справка по hugo
       --ignoreCache                ignores the cache directory
       --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
   -l, --layoutDir string           filesystem path to layout directory
-      --logLevel string            log level (debug|info|warn|error)
+      --logLevel string            уровень лога (debug|info|warn|error)
       --minify                     minify any supported output format (HTML, XML etc.)
-      --noBuildLock                don't create .hugo_build.lock file
+      --noBuildLock                не создавать файл .hugo_build.lock
       --noChmod                    don't sync permission mode of files
       --noTimes                    don't sync modification time of files
       --panicOnWarning             panic on first WARNING log
       --poll string                set this to a poll interval, e.g --poll 700ms, to use a poll based approach to watch for file system changes
-      --printI18nWarnings          print missing translations
+      --printI18nWarnings          вывести отсутствующиее переводы
       --printMemoryUsage           print memory usage to screen at intervals
       --printPathWarnings          print warnings on duplicate target paths etc.
       --printUnusedTemplates       print warnings on unused templates.
