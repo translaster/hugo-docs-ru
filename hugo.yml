@@ -3,3 +3,4 @@ languageCode: ru
 title: 'Справка Hugo'
 theme: hugo-theme-relearn
 defaultContentLanguage: ru
+format: yaml

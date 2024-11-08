@@ -5,50 +5,50 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.134.2">
     <meta name="generator" content="Relearn 7.1.1">
-    <meta name="description" content="hugo completion zsh Создаём скрипт автозаполнения для zsh
-Описание Создайте скрипт автозаполнения для оболочки zsh
-Если запуск для вашей оболочки еще не включено в вашей среде, то нужно включить его. Вы можете один раз выполнить следующее:
-echo &#34;autoload -U compinit; compinit&#34; &gt;&gt; ~/.zshrc Чтобы выполнить запуск в текущем сеансе оболочки:
-source &lt;(hugo completion zsh) Чтобы загрузить запуск для каждой новой сессии, выполните один раз:
-Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completion zsh &gt; $(brew --prefix)/share/zsh/site-functions/_hugo Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.">
+    <meta name="description" content="hugo new content Создает новый контент
+Описание Создает новый файл с содержимым и автоматически устанавливает дату и заголовок. Она сама определит, какой тип файла создать, исходя из указанного пути.
+Вы также можете указать тип с помощью -k KIND.
+Если в вашей теме или сайте есть архетипы, они будут использованы.
+Убедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.
+hugo new content [path] [flags] Параметры -b, --baseURL string hostname (and path) to the root, e.g. https://spf13.com/ --cacheDir string filesystem path to cache directory -c, --contentDir string filesystem path to content directory --editor string редактировать новый контент с помощью этого редактора, если присутствует в системе -f, --force заменить файл если он уже существует -h, --help help for content -k, --kind string тип контента при создании --renderSegments strings named segments to render (configured in the segments config) -t, --theme strings используемая тема (располагается в /themes/THEMENAME/) Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00&#43;09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default &#34;config&#34;) --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new	- Создать новый контент">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="http://localhost:1313/images/gohugoio-card.png">
-    <meta name="twitter:title" content="hugo completion zsh :: Справка Hugo">
-    <meta name="twitter:description" content="hugo completion zsh Создаём скрипт автозаполнения для zsh
-Описание Создайте скрипт автозаполнения для оболочки zsh
-Если запуск для вашей оболочки еще не включено в вашей среде, то нужно включить его. Вы можете один раз выполнить следующее:
-echo &#34;autoload -U compinit; compinit&#34; &gt;&gt; ~/.zshrc Чтобы выполнить запуск в текущем сеансе оболочки:
-source &lt;(hugo completion zsh) Чтобы загрузить запуск для каждой новой сессии, выполните один раз:
-Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completion zsh &gt; $(brew --prefix)/share/zsh/site-functions/_hugo Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.">
+    <meta name="twitter:title" content="hugo new content :: Справка Hugo">
+    <meta name="twitter:description" content="hugo new content Создает новый контент
+Описание Создает новый файл с содержимым и автоматически устанавливает дату и заголовок. Она сама определит, какой тип файла создать, исходя из указанного пути.
+Вы также можете указать тип с помощью -k KIND.
+Если в вашей теме или сайте есть архетипы, они будут использованы.
+Убедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.
+hugo new content [path] [flags] Параметры -b, --baseURL string hostname (and path) to the root, e.g. https://spf13.com/ --cacheDir string filesystem path to cache directory -c, --contentDir string filesystem path to content directory --editor string редактировать новый контент с помощью этого редактора, если присутствует в системе -f, --force заменить файл если он уже существует -h, --help help for content -k, --kind string тип контента при создании --renderSegments strings named segments to render (configured in the segments config) -t, --theme strings используемая тема (располагается в /themes/THEMENAME/) Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00&#43;09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default &#34;config&#34;) --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new	- Создать новый контент">
   <meta name="twitter:site" content="@GoHugoIOv2"/>
-    <meta property="og:url" content="http://localhost:1313/commands/hugo_completion_zsh/index.html">
+    <meta property="og:url" content="http://localhost:1313/commands/hugo_new_content/index.html">
     <meta property="og:site_name" content="Справка Hugo">
-    <meta property="og:title" content="hugo completion zsh :: Справка Hugo">
-    <meta property="og:description" content="hugo completion zsh Создаём скрипт автозаполнения для zsh
-Описание Создайте скрипт автозаполнения для оболочки zsh
-Если запуск для вашей оболочки еще не включено в вашей среде, то нужно включить его. Вы можете один раз выполнить следующее:
-echo &#34;autoload -U compinit; compinit&#34; &gt;&gt; ~/.zshrc Чтобы выполнить запуск в текущем сеансе оболочки:
-source &lt;(hugo completion zsh) Чтобы загрузить запуск для каждой новой сессии, выполните один раз:
-Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completion zsh &gt; $(brew --prefix)/share/zsh/site-functions/_hugo Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.">
+    <meta property="og:title" content="hugo new content :: Справка Hugo">
+    <meta property="og:description" content="hugo new content Создает новый контент
+Описание Создает новый файл с содержимым и автоматически устанавливает дату и заголовок. Она сама определит, какой тип файла создать, исходя из указанного пути.
+Вы также можете указать тип с помощью -k KIND.
+Если в вашей теме или сайте есть архетипы, они будут использованы.
+Убедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.
+hugo new content [path] [flags] Параметры -b, --baseURL string hostname (and path) to the root, e.g. https://spf13.com/ --cacheDir string filesystem path to cache directory -c, --contentDir string filesystem path to content directory --editor string редактировать новый контент с помощью этого редактора, если присутствует в системе -f, --force заменить файл если он уже существует -h, --help help for content -k, --kind string тип контента при создании --renderSegments strings named segments to render (configured in the segments config) -t, --theme strings используемая тема (располагается в /themes/THEMENAME/) Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00&#43;09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default &#34;config&#34;) --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new	- Создать новый контент">
     <meta property="og:locale" content="ru">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Commands">
-    <meta property="article:published_time" content="2024-11-07T18:05:32+05:00">
-    <meta property="article:modified_time" content="2024-11-07T18:05:32+05:00">
+    <meta property="article:published_time" content="2024-11-08T09:44:21+05:00">
+    <meta property="article:modified_time" content="2024-11-08T09:44:21+05:00">
     <meta property="og:image" content="http://localhost:1313/images/gohugoio-card.png">
-    <meta itemprop="name" content="hugo completion zsh :: Справка Hugo">
-    <meta itemprop="description" content="hugo completion zsh Создаём скрипт автозаполнения для zsh
-Описание Создайте скрипт автозаполнения для оболочки zsh
-Если запуск для вашей оболочки еще не включено в вашей среде, то нужно включить его. Вы можете один раз выполнить следующее:
-echo &#34;autoload -U compinit; compinit&#34; &gt;&gt; ~/.zshrc Чтобы выполнить запуск в текущем сеансе оболочки:
-source &lt;(hugo completion zsh) Чтобы загрузить запуск для каждой новой сессии, выполните один раз:
-Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completion zsh &gt; $(brew --prefix)/share/zsh/site-functions/_hugo Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.">
-    <meta itemprop="datePublished" content="2024-11-07T18:05:32+05:00">
-    <meta itemprop="dateModified" content="2024-11-07T18:05:32+05:00">
-    <meta itemprop="wordCount" content="215">
+    <meta itemprop="name" content="hugo new content :: Справка Hugo">
+    <meta itemprop="description" content="hugo new content Создает новый контент
+Описание Создает новый файл с содержимым и автоматически устанавливает дату и заголовок. Она сама определит, какой тип файла создать, исходя из указанного пути.
+Вы также можете указать тип с помощью -k KIND.
+Если в вашей теме или сайте есть архетипы, они будут использованы.
+Убедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.
+hugo new content [path] [flags] Параметры -b, --baseURL string hostname (and path) to the root, e.g. https://spf13.com/ --cacheDir string filesystem path to cache directory -c, --contentDir string filesystem path to content directory --editor string редактировать новый контент с помощью этого редактора, если присутствует в системе -f, --force заменить файл если он уже существует -h, --help help for content -k, --kind string тип контента при создании --renderSegments strings named segments to render (configured in the segments config) -t, --theme strings используемая тема (располагается в /themes/THEMENAME/) Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00&#43;09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default &#34;config&#34;) --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new	- Создать новый контент">
+    <meta itemprop="datePublished" content="2024-11-08T09:44:21+05:00">
+    <meta itemprop="dateModified" content="2024-11-08T09:44:21+05:00">
+    <meta itemprop="wordCount" content="253">
     <meta itemprop="image" content="http://localhost:1313/images/gohugoio-card.png">
-    <title>hugo completion zsh :: Справка Hugo</title>
+    <title>hugo new content :: Справка Hugo</title>
     <link href="/css/fontawesome-all.min.css?1731046849" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1731046849" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1731046849" rel="stylesheet">
     <link href="/css/auto-complete.css?1731046849" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1731046849" rel="stylesheet"></noscript>
@@ -79,7 +79,7 @@ Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completi
       window.T_N_results_found = `{1} результатов найдено для "{0}"`;
     </script>
   </head>
-  <body class="mobile-support html" data-url="/commands/hugo_completion_zsh/index.html">
+  <body class="mobile-support html" data-url="/commands/hugo_new_content/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -93,7 +93,7 @@ Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completi
                 <div class="topbar-content-wrapper">
 <nav class="TableOfContents">
   <ul>
-    <li><a href="#hugo-completion-zsh">hugo completion zsh</a></li>
+    <li><a href="#hugo-new-content">hugo new content</a></li>
   </ul>
 </nav>
                 </div>
@@ -103,12 +103,12 @@ Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completi
           <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Самый быстрый в мире фреймворк для создания сайтов</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/commands/index.html"><span itemprop="name">Commands</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
-            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">hugo completion zsh</span><meta itemprop="position" content="3"></li>
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">hugo new content</span><meta itemprop="position" content="3"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/commands/hugo_config/index.html" title="hugo config (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/commands/hugo_new_site/index.html" title="hugo new site (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/commands/hugo_completion/index.html" title="hugo completion (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/commands/hugo_new/index.html" title="hugo new (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Еще"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -128,30 +128,27 @@ Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completi
   <header class="headline">
   </header>
 
-<h1 id="hugo-completion-zsh">hugo completion zsh</h1>
+<h1 id="hugo-new-content">hugo new content</h1>
 
-<h2 id="hugo-completion-zsh">hugo completion zsh</h2>
-<p>Создаём скрипт автозаполнения для zsh</p>
+<h2 id="hugo-new-content">hugo new content</h2>
+<p>Создает новый контент</p>
 <h3 id="описание">Описание</h3>
-<p>Создайте скрипт автозаполнения для оболочки zsh</p>
-<p>Если запуск для вашей оболочки еще не включено в вашей среде, то нужно включить его. Вы можете один раз выполнить следующее:</p>
-<pre><code>echo &quot;autoload -U compinit; compinit&quot; &gt;&gt; ~/.zshrc
-</code></pre>
-<p>Чтобы выполнить запуск в текущем сеансе оболочки:</p>
-<pre><code>source &lt;(hugo completion zsh)
-</code></pre>
-<p>Чтобы загрузить запуск для каждой новой сессии, выполните один раз:</p>
-<h4 id="linux">Linux:</h4>
-<pre><code>hugo completion zsh &gt; &quot;${fpath[1]}/_hugo&quot;
-</code></pre>
-<h4 id="macos">macOS:</h4>
-<pre><code>hugo completion zsh &gt; $(brew --prefix)/share/zsh/site-functions/_hugo
-</code></pre>
-<p>Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.</p>
-<div class="highlight wrap-code"><pre tabindex="0"><code>hugo completion zsh [flags]</code></pre></div>
+<p>Создает новый файл с содержимым и автоматически устанавливает дату и заголовок.
+Она сама определит, какой тип файла создать, исходя из указанного пути.</p>
+<p>Вы также можете указать тип с помощью <code>-k KIND</code>.</p>
+<p>Если в вашей теме или сайте есть архетипы, они будут использованы.</p>
+<p>Убедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>hugo new content [path] [flags]</code></pre></div>
 <h3 id="параметры">Параметры</h3>
-<div class="highlight wrap-code"><pre tabindex="0"><code>  -h, --help              справка для zsh
-      --no-descriptions   отключение описаний выполнения</code></pre></div>
+<div class="highlight wrap-code"><pre tabindex="0"><code>  -b, --baseURL string           hostname (and path) to the root, e.g. https://spf13.com/
+      --cacheDir string          filesystem path to cache directory
+  -c, --contentDir string        filesystem path to content directory
+      --editor string            редактировать новый контент с помощью этого редактора, если присутствует в системе
+  -f, --force                    заменить файл если он уже существует
+  -h, --help                     help for content
+  -k, --kind string              тип контента при создании
+      --renderSegments strings   named segments to render (configured in the segments config)
+  -t, --theme strings            используемая тема (располагается в /themes/THEMENAME/)</code></pre></div>
 <h3 id="параметры-наследуемые-от-родительских-команд">Параметры, наследуемые от родительских команд</h3>
 <div class="highlight wrap-code"><pre tabindex="0"><code>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
       --config string              config file (default is hugo.yaml|json|toml)
@@ -166,9 +163,9 @@ Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completi
   -s, --source string              filesystem path to read files relative from
       --themesDir string           filesystem path to themes directory
   -v, --verbose                    verbose output</code></pre></div>
-<h3 id="смотрите-также">СМОТРИТЕ ТАКЖЕ</h3>
+<h3 id="смотри-также">СМОТРИ ТАКЖЕ</h3>
 <ul>
-<li><a href="/commands/hugo_completion/index.html">hugo completion</a>	 - Создайте скрипт автозаполнения для указанной оболочки</li>
+<li><a href="/commands/hugo_new/index.html">hugo new</a>	 - Создать новый контент</li>
 </ul>
 
   <footer class="footline">
@@ -225,10 +222,10 @@ Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completi
             <li class="" data-nav-id="/commands/hugo_version/index.html"><a class="padding" href="/commands/hugo_version/index.html">hugo version</a></li>
             <li class="" data-nav-id="/commands/hugo_new_theme/index.html"><a class="padding" href="/commands/hugo_new_theme/index.html">hugo new theme</a></li>
             <li class="" data-nav-id="/commands/hugo_new_site/index.html"><a class="padding" href="/commands/hugo_new_site/index.html">hugo new site</a></li>
-            <li class="" data-nav-id="/commands/hugo_new_content/index.html"><a class="padding" href="/commands/hugo_new_content/index.html">hugo new content</a></li>
+            <li class="active " data-nav-id="/commands/hugo_new_content/index.html"><a class="padding" href="/commands/hugo_new_content/index.html">hugo new content</a></li>
             <li class="" data-nav-id="/commands/hugo_new/index.html"><a class="padding" href="/commands/hugo_new/index.html">hugo new</a></li>
             <li class="" data-nav-id="/commands/hugo_config/index.html"><a class="padding" href="/commands/hugo_config/index.html">hugo config</a></li>
-            <li class="active " data-nav-id="/commands/hugo_completion_zsh/index.html"><a class="padding" href="/commands/hugo_completion_zsh/index.html">hugo completion zsh</a></li>
+            <li class="" data-nav-id="/commands/hugo_completion_zsh/index.html"><a class="padding" href="/commands/hugo_completion_zsh/index.html">hugo completion zsh</a></li>
             <li class="" data-nav-id="/commands/hugo_completion/index.html"><a class="padding" href="/commands/hugo_completion/index.html">hugo completion</a></li>
             <li class="" data-nav-id="/commands/hugo_build/index.html"><a class="padding" href="/commands/hugo_build/index.html">hugo build</a></li>
             <li class="" data-nav-id="/commands/hugo/index.html"><a class="padding" href="/commands/hugo/index.html">hugo</a></li></ul></li>
@@ -247,7 +244,7 @@ Linux: hugo completion zsh &gt; &#34;${fpath[1]}/_hugo&#34; macOS: hugo completi
                   <div class="control-style">
                     <label class="a11y-only" for="R-select-language">Язык</label>
                     <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
-                      <option id="R-select-language-ru" value="#R-select-language-ru" data-url="/commands/hugo_completion_zsh/index.html" lang="ru" selected>Russian</option>
+                      <option id="R-select-language-ru" value="#R-select-language-ru" data-url="/commands/hugo_new_content/index.html" lang="ru" selected>Russian</option>
                     </select>
                   </div>
                   <div class="clear"></div>

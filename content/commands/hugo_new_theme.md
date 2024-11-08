@@ -1,0 +1,47 @@
+---
+title: "hugo new theme"
+slug: hugo_new_theme
+url: /commands/hugo_new_theme/
+date: 2024-11-08T10:28:52+05:00
+---
+## hugo new theme
+
+Создать новую тему (каркас)
+
+### Описание
+
+Создать новую тему (скелет) под названием [name] в каталоге ./themes.
+Новая тема - это скелет. Пожалуйста, добавьте содержимое в тронутые файлы. Добавьте свое имя в строку копирайта в лицензии и настройте файл theme.toml в соответствии с вашими потребностями.
+
+```
+hugo new theme [name] [flags]
+```
+
+### Параметры
+
+```
+  -h, --help   help for theme
+```
+
+### Параметры, наследуемые от родительских команд
+
+```
+      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+      --config string              config file (default is hugo.yaml|json|toml)
+      --configDir string           config dir (default "config")
+      --debug                      debug output
+  -d, --destination string         filesystem path to write files to
+  -e, --environment string         build environment
+      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+      --logLevel string            log level (debug|info|warn|error)
+      --quiet                      build in quiet mode
+  -M, --renderToMemory             render to memory (mostly useful when running the server)
+  -s, --source string              filesystem path to read files relative from
+      --themesDir string           filesystem path to themes directory
+  -v, --verbose                    verbose output
+```
+
+### СМОТРИ ТАКЖЕ
+
+* [hugo new](/commands/hugo_new/)	 - Создать новый контент
+

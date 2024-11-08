@@ -6,7 +6,7 @@
     <description>Самый быстрый в мире фреймворк для создания сайтов</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 07 Nov 2024 18:11:59 +0500</lastBuildDate>
+    <lastBuildDate>Fri, 08 Nov 2024 10:28:52 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Документация Hugo</title>
@@ -39,7 +39,7 @@
     <item>
       <title>Commands</title>
       <link>http://localhost:1313/commands/index.html</link>
-      <pubDate>Thu, 07 Nov 2024 18:11:59 +0500</pubDate>
+      <pubDate>Fri, 08 Nov 2024 10:28:52 +0500</pubDate>
       <guid>http://localhost:1313/commands/index.html</guid>
       <description></description>
     </item>

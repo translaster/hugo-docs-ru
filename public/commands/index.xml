@@ -6,8 +6,36 @@
     <description></description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 07 Nov 2024 18:11:59 +0500</lastBuildDate>
+    <lastBuildDate>Fri, 08 Nov 2024 10:28:52 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/commands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo new theme</title>
+      <link>http://localhost:1313/commands/hugo_new_theme/index.html</link>
+      <pubDate>Fri, 08 Nov 2024 10:28:52 +0500</pubDate>
+      <guid>http://localhost:1313/commands/hugo_new_theme/index.html</guid>
+      <description>hugo new theme Создать новую тему (каркас)&#xA;Описание Create a new theme (skeleton) called [name] in ./themes. New theme is a skeleton. Please add content to the touched files. Add your name to the copyright line in the license and adjust the theme.toml file according to your needs.&#xA;hugo new theme [name] [flags] Параметры -h, --help help for theme Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default &#34;config&#34;) --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new&#x9;- Создать новый контент</description>
+    </item>
+    <item>
+      <title>hugo new site</title>
+      <link>http://localhost:1313/commands/hugo_new_site/index.html</link>
+      <pubDate>Fri, 08 Nov 2024 10:17:45 +0500</pubDate>
+      <guid>http://localhost:1313/commands/hugo_new_site/index.html</guid>
+      <description>hugo new site Создать новый сайт (каркас)&#xA;Описание Создаёт новый сайт в указанном каталоге. Новый сайт будет иметь правильную структуру, но без контента и темы. Используйте hugo new [contentPath] для создания нового контента.&#xA;hugo new site [path] [flags] Параметры -f, --force инициализация внутри непустого каталога --format string предпочтительный формат файлов (toml, yaml или json) (по-умолчанию &#34;toml&#34;) -h, --help справка по site Опции, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по-умолчанию hugo.yaml|json|toml) --configDir string каталог конфигурации (по-умолчанию &#34;config&#34;) --debug debug output -d, --destination string filesystem path to write files to -e, --environment string среда сборки --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string уровень лога (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose детальность вывода СМОТРИ ТАКЖЕ hugo new&#x9;- Создать новый контент</description>
+    </item>
+    <item>
+      <title>hugo new content</title>
+      <link>http://localhost:1313/commands/hugo_new_content/index.html</link>
+      <pubDate>Fri, 08 Nov 2024 09:44:21 +0500</pubDate>
+      <guid>http://localhost:1313/commands/hugo_new_content/index.html</guid>
+      <description>hugo new content Создает новый контент&#xA;Описание Создает новый файл с содержимым и автоматически устанавливает дату и заголовок. Она сама определит, какой тип файла создать, исходя из указанного пути.&#xA;Вы также можете указать тип с помощью -k KIND.&#xA;Если в вашей теме или сайте есть архетипы, они будут использованы.&#xA;Убедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.&#xA;hugo new content [path] [flags] Параметры -b, --baseURL string hostname (and path) to the root, e.g. https://spf13.com/ --cacheDir string filesystem path to cache directory -c, --contentDir string filesystem path to content directory --editor string редактировать новый контент с помощью этого редактора, если присутствует в системе -f, --force заменить файл если он уже существует -h, --help help for content -k, --kind string тип контента при создании --renderSegments strings named segments to render (configured in the segments config) -t, --theme strings используемая тема (располагается в /themes/THEMENAME/) Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default &#34;config&#34;) --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new&#x9;- Создать новый контент</description>
+    </item>
+    <item>
+      <title>hugo new</title>
+      <link>http://localhost:1313/commands/hugo_new/index.html</link>
+      <pubDate>Fri, 08 Nov 2024 09:39:27 +0500</pubDate>
+      <guid>http://localhost:1313/commands/hugo_new/index.html</guid>
+      <description>hugo new Создает новый контент&#xA;Описание Создайте новый файл с содержимым и автоматически установите дату и заголовок. Он сам определит, какой тип файла создать, исходя из указанного пути.&#xA;Вы также можете указать тип с помощью -k KIND.&#xA;Если в вашей теме или сайте есть архетипы, они будут использованы.&#xA;Убедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.&#xA;Параметры -h, --help справка по new Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по-умолчанию hugo.yaml|json|toml) --configDir string каталог конфигурации (по-умолчанию &#34;config&#34;) --debug debug output -d, --destination string путь файловой системы для записи файлов -e, --environment string среда сборки --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string уровень журнала (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo&#x9;- Создай свой сайт hugo new content&#x9;- Создать новый контент hugo new site&#x9;- Создать новый сайт (каркас) hugo new theme&#x9;- Создать новую тему (каркас)</description>
+    </item>
     <item>
       <title>hugo config</title>
       <link>http://localhost:1313/commands/hugo_config/index.html</link>
