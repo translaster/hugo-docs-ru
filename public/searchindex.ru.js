@@ -5,7 +5,7 @@ var relearn_searchindex = [
     "description": "Hugo - это самый быстрый в мире движок для создания статических сайтов. Он написан на языке Go (он же Golang) и разработан bep, spf13 и друзьями.",
     "tags": [],
     "title": "Документация Hugo",
-    "uri": "/documentation/index.html"
+    "uri": "/hugo-docs-ru/documentation/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов",
@@ -13,7 +13,7 @@ var relearn_searchindex = [
     "description": "В дополнение к мощному CLI Hugo существует большое количество цепочек инструментов, разработанных сообществом для разработчиков Hugo.",
     "tags": [],
     "title": "Инструменты разработчика",
-    "uri": "/tools/index.html"
+    "uri": "/hugo-docs-ru/tools/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов",
@@ -21,7 +21,7 @@ var relearn_searchindex = [
     "description": "Hugo упрощает управление большими статическими сайтами благодаря поддержке архетипов, типов контента, меню, перекрестных ссылок, резюме и многого другого.",
     "tags": [],
     "title": "Управление содержимым",
-    "uri": "/content-management/index.html"
+    "uri": "/hugo-docs-ru/content-management/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов",
@@ -29,7 +29,7 @@ var relearn_searchindex = [
     "description": "Узнайте о Hugo и его возможностях, модели безопасности и защите конфиденциальности.",
     "tags": [],
     "title": "О Hugo",
-    "uri": "/about/index.html"
+    "uri": "/hugo-docs-ru/about/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e О Hugo",
@@ -37,7 +37,7 @@ var relearn_searchindex = [
     "description": "Hugo - это генератор статических сайтов, написанный на языке Go, оптимизированный для скорости и разработанный для гибкости.",
     "tags": [],
     "title": "Введение",
-    "uri": "/about/introduction/index.html"
+    "uri": "/hugo-docs-ru/about/introduction/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e О Hugo",
@@ -45,7 +45,7 @@ var relearn_searchindex = [
     "description": "Богатый и мощный набор функций Hugo обеспечивает основу и инструменты для создания статических сайтов, создаваемых за несколько секунд, а зачастую и меньше.",
     "tags": [],
     "title": "Функциональность",
-    "uri": "/about/features/index.html"
+    "uri": "/hugo-docs-ru/about/features/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e О Hugo",
@@ -53,7 +53,7 @@ var relearn_searchindex = [
     "description": "Настройте свой сайт так, чтобы он соответствовал региональным нормам конфиденциальности.",
     "tags": [],
     "title": "Приватность",
-    "uri": "/about/privacy/index.html"
+    "uri": "/hugo-docs-ru/about/privacy/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e О Hugo",
@@ -61,7 +61,7 @@ var relearn_searchindex = [
     "description": "Краткое описание модели безопасности Hugo.",
     "tags": [],
     "title": "Модель безопасности",
-    "uri": "/about/security/index.html"
+    "uri": "/hugo-docs-ru/about/security/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e О Hugo",
@@ -69,7 +69,7 @@ var relearn_searchindex = [
     "description": "Hugo распространяется под Apache 2.0 license.",
     "tags": [],
     "title": "Лицензия",
-    "uri": "/about/license/index.html"
+    "uri": "/hugo-docs-ru/about/license/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Управление содержимым",
@@ -77,7 +77,7 @@ var relearn_searchindex = [
     "description": "Создайте меню, определив пункты, локализовав каждый из них и отобразив полученную структуру данных.",
     "tags": [],
     "title": "Меню",
-    "uri": "/content-management/menus/index.html"
+    "uri": "/hugo-docs-ru/content-management/menus/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов",
@@ -85,15 +85,15 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Commands",
-    "uri": "/commands/index.html"
+    "uri": "/hugo-docs-ru/commands/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
-    "content": "hugo new theme Создать новую тему (каркас)\nОписание Create a new theme (skeleton) called [name] in ./themes. New theme is a skeleton. Please add content to the touched files. Add your name to the copyright line in the license and adjust the theme.toml file according to your needs.\nhugo new theme [name] [flags] Параметры -h, --help help for theme Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new\t- Создать новый контент",
-    "description": "hugo new theme Создать новую тему (каркас)\nОписание Create a new theme (skeleton) called [name] in ./themes. New theme is a skeleton. Please add content to the touched files. Add your name to the copyright line in the license and adjust the theme.toml file according to your needs.\nhugo new theme [name] [flags] Параметры -h, --help help for theme Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new\t- Создать новый контент",
+    "content": "hugo list published List published content\nОписание List content that is not draft, future, or expired.\nhugo list published [flags] [args] Параметры -h, --help help for published Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo list\t- Список контента",
+    "description": "hugo list published List published content\nОписание List content that is not draft, future, or expired.\nhugo list published [flags] [args] Параметры -h, --help help for published Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo list\t- Список контента",
     "tags": [],
-    "title": "hugo new theme",
-    "uri": "/commands/hugo_new_theme/index.html"
+    "title": "hugo list published",
+    "uri": "/hugo-docs-ru/commands/hugo_list_published/index.html"
   },
   {
     "breadcrumb": "",
@@ -101,7 +101,71 @@ var relearn_searchindex = [
     "description": "Самый быстрый в мире фреймворк для создания сайтов",
     "tags": [],
     "title": "Самый быстрый в мире фреймворк для создания сайтов",
-    "uri": "/index.html"
+    "uri": "/hugo-docs-ru/index.html"
+  },
+  {
+    "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
+    "content": "hugo list Список контента\nОписание Список контента.\nСписок требует подкоманды, например, hugo list drafts\nПараметры -h, --help справка по list Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по-умолчанию hugo.yaml|json|toml) --configDir string каталог конфигурации (по-умолчанию \"config\") --debug вывод отладочной информации -d, --destination string filesystem path to write files to -e, --environment string среда сборки --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string уровень лога (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose детальность вывода СМОТРИ ТАКЖЕ hugo\t- Создай свой сайт hugo list all\t- Список всего контента hugo list drafts\t- Список чернового контента hugo list expired\t- Список истекшего контента hugo list future\t- Список будущего контента hugo list published\t- Список опубликованного контента",
+    "description": "hugo list Список контента\nОписание Список контента.\nСписок требует подкоманды, например, hugo list drafts\nПараметры -h, --help справка по list Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по-умолчанию hugo.yaml|json|toml) --configDir string каталог конфигурации (по-умолчанию \"config\") --debug вывод отладочной информации -d, --destination string filesystem path to write files to -e, --environment string среда сборки --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string уровень лога (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose детальность вывода СМОТРИ ТАКЖЕ hugo\t- Создай свой сайт hugo list all\t- Список всего контента hugo list drafts\t- Список чернового контента hugo list expired\t- Список истекшего контента hugo list future\t- Список будущего контента hugo list published\t- Список опубликованного контента",
+    "tags": [],
+    "title": "hugo list",
+    "uri": "/hugo-docs-ru/commands/hugo_list/index.html"
+  },
+  {
+    "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
+    "content": "hugo completion powershell Создает скрипт автозаполнения для powershell\nОписание Создает скрипт автозаполнения для powershell.\nДля загрузки автозаполнений в текущем сеансе оболочки:\nhugo completion powershell | Out-String | Invoke-Expression. Чтобы загружать автозаполнения для каждого нового сеанса, добавьте вывод приведенной выше команды в свой профиль powershell.\nhugo completion powershell [flags] Параметры -h, --help справка по powershell --no-descriptions отключить автозаполнения описаний Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo completion\t- Создать скрипт автозаполнения для указанной оболочки",
+    "description": "hugo completion powershell Создает скрипт автозаполнения для powershell\nОписание Создает скрипт автозаполнения для powershell.\nДля загрузки автозаполнений в текущем сеансе оболочки:\nhugo completion powershell | Out-String | Invoke-Expression. Чтобы загружать автозаполнения для каждого нового сеанса, добавьте вывод приведенной выше команды в свой профиль powershell.\nhugo completion powershell [flags] Параметры -h, --help справка по powershell --no-descriptions отключить автозаполнения описаний Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo completion\t- Создать скрипт автозаполнения для указанной оболочки",
+    "tags": [],
+    "title": "hugo completion powershell",
+    "uri": "/hugo-docs-ru/commands/hugo_completion_powershell/index.html"
+  },
+  {
+    "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
+    "content": "hugo completion fish Генерирует скрипт автозаполнения для fish\nОписание Генерирует скрипт автозаполнения для оболочки fish.\nДля загрузки автозаполнений в текущей сессии оболочки:\nhugo completion fish | source Чтобы загружать автозаполнения для каждого нового сеанса, выполните один раз:\nhugo completion fish \u003e ~/.config/fish/completions/hugo.fish Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.\nhugo completion fish [flags] Параметры -h, --help справка по fish --no-descriptions отключение автозаполнения описаний Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo completion\t- Создать скрипт автозаполнения для указанной оболочки",
+    "description": "hugo completion fish Генерирует скрипт автозаполнения для fish\nОписание Генерирует скрипт автозаполнения для оболочки fish.\nДля загрузки автозаполнений в текущей сессии оболочки:\nhugo completion fish | source Чтобы загружать автозаполнения для каждого нового сеанса, выполните один раз:\nhugo completion fish \u003e ~/.config/fish/completions/hugo.fish Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.\nhugo completion fish [flags] Параметры -h, --help справка по fish --no-descriptions отключение автозаполнения описаний Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo completion\t- Создать скрипт автозаполнения для указанной оболочки",
+    "tags": [],
+    "title": "hugo completion fish",
+    "uri": "/hugo-docs-ru/commands/hugo_completion_fish/index.html"
+  },
+  {
+    "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
+    "content": "hugo completion bash Генерирует скрипт автозаполнения для bash\nОписание Генерирует скрипт автозаполнения для оболочки bash.\nЭтот скрипт зависит от пакета ‘bash-completion’. Если он еще не установлен, вы можете установить его через менеджер пакетов вашей ОС.\nЧтобы загрузить автозаполнение в текущей сессии оболочки:\nsource \u003c(hugo completion bash) Чтобы загрузить завершения для каждого нового сеанса, выполните один раз:\nLinux: hugo completion bash \u003e /etc/bash_completion.d/hugo macOS: hugo completion bash \u003e $(brew --prefix)/etc/bash_completion.d/hugo Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.\nhugo completion bash Параметры -h, --help справка для bash --no-descriptions отключение функции завершения Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo completion\t- Создать скрипт автозаполнения для указанной оболочки",
+    "description": "hugo completion bash Генерирует скрипт автозаполнения для bash\nОписание Генерирует скрипт автозаполнения для оболочки bash.\nЭтот скрипт зависит от пакета ‘bash-completion’. Если он еще не установлен, вы можете установить его через менеджер пакетов вашей ОС.\nЧтобы загрузить автозаполнение в текущей сессии оболочки:\nsource \u003c(hugo completion bash) Чтобы загрузить завершения для каждого нового сеанса, выполните один раз:\nLinux: hugo completion bash \u003e /etc/bash_completion.d/hugo macOS: hugo completion bash \u003e $(brew --prefix)/etc/bash_completion.d/hugo Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.",
+    "tags": [],
+    "title": "hugo completion bash",
+    "uri": "/hugo-docs-ru/commands/hugo_completion_bash/index.html"
+  },
+  {
+    "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
+    "content": "hugo server trust Устанавливает локальный CA в доверенное хранилище системы.\nhugo server trust [flags] [args] Параметры -h, --help справка по trust --uninstall Убрать локальный CA (но не удалять его). Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo server\t- Запуск встроенного веб-сервера",
+    "description": "hugo server trust Устанавливает локальный CA в доверенное хранилище системы.\nhugo server trust [flags] [args] Параметры -h, --help справка по trust --uninstall Убрать локальный CA (но не удалять его). Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo server\t- Запуск встроенного веб-сервера",
+    "tags": [],
+    "title": "hugo server trust",
+    "uri": "/hugo-docs-ru/commands/hugo_server_trust/index.html"
+  },
+  {
+    "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
+    "content": "hugo server Запуск встроенного веб-сервера\nОписание Hugo предоставляет свой собственный веб-сервер, который создает и обслуживает сайт. Хотя hugo server отличается высокой производительностью, это веб-сервер с ограниченными возможностями.\nКоманда hugo server по умолчанию записывает и обслуживает файлы с диска, но вы можете выводить файлы в память, используя флаг --renderToMemory. Это может быть быстрее в некоторых случаях, но при этом будет потребляться больше памяти.\nПо умолчанию hugo также будет следить за любыми изменениями в ваших файлах и автоматически перестраивать сайт. Затем он в реальном времени перезагрузит все открытые страницы браузера и передаст туда последнее содержимое. Поскольку большинство сайтов Hugo создаются за доли секунды, вы сможете сохранить и увидеть свои изменения практически мгновенно.\nhugo server [command] [flags] Параметры --appendPort добавлять порт к базовому URL (по умолчанию true) -b, --baseURL string имя хоста (и путь) к корню, напр. https://spf13.com/ --bind string интерфейс, к которому будет привязан сервер (по-умолчанию \"127.0.0.1\") -D, --buildDrafts включая контент, помеченный как черновик (draft) -E, --buildExpired включая истекший контент -F, --buildFuture включая контент с датой публикации в будущем --cacheDir string путь файловой системы к каталогу кэша --cleanDestinationDir удалять файлы из пункта назначения, не найденные в статических каталогах -c, --contentDir string путь файловой системы к каталогу контента --disableBrowserError не отображать ошибки сборки в браузере --disableFastRender выполнять полный рендеринг при изменениях --disableKinds strings отключение различных типов страниц (главная, RSS и т.д.) --disableLiveReload смотреть без включения живой перезагрузки браузера при пересборке --enableGitInfo добавить информацию о ревизии Git, дате, авторе и CODEOWNERS на страницы --forceSyncStatic копировать все файлы при изменении статики --gc включить выполнение некоторых задач по очистке (удаление неиспользуемых файлов кэша) после сборки -h, --help справка по server --ignoreCache игнорировать каталог кэша -l, --layoutDir string путь файловой системы к каталогу шаблонов --liveReloadPort int порт для живой перезагрузки (т.е. 443 в ситуациях с HTTPS-прокси) (по умолчанию -1) --minify минифицировать любой поддерживаемый формат вывода (HTML, XML и т.д.) -N, --navigateToChanged переход к измененному файлу содержимого при перезагрузке браузера --noBuildLock не создавать файл .hugo_build.lock --noChmod не синхронизируйте режим разрешения файлов --noHTTPCache предотвращение кэширования HTTP --noTimes не синхронизировать время модификации файлов --panicOnWarning паника при первом журнале WARNING --poll string установить значение интервала опроса, например --poll 700ms, чтобы использовать подход, основанный на опросе, для отслеживания изменений в файловой системе -p, --port int порт, который будет слушивать сервер (по умолчанию 1313) --pprof включить сервер pprof (порт 8080) --printI18nWarnings печать отсутствующих переводов --printMemoryUsage выводить данные об использовании памяти на экран через определенные интервалы --printPathWarnings выводить предупреждения о дублировании целевых путей и т.д. --printUnusedTemplates выводить предупреждения о неиспользуемых шаблонах. --renderSegments strings именованные сегменты для рендеринга (настраиваются в конфигурации сегментов) --renderStaticToDisk обслуживать статические файлы с диска и динамические файлы из памяти --templateMetrics отображение метрик о выполнении шаблонов --templateMetricsHints вычислить некоторые подсказки по улучшению в сочетании с --templateMetrics -t, --theme strings используемая тема (расположена в /themes/THEMENAME/) --tlsAuto генерировать и использовать локально доверенные сертификаты --tlsCertFile string путь к файлу сертификата TLS --tlsKeyFile string путь к файлу ключа TLS --trace file записывать трассировку в файл (в общем случае бесполезно) -w, --watch следить за изменениями в файловой системе и пересоздавать ее по мере необходимости (по умолчанию true) Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo\t- Собери свой сайт hugo server trust\t- Установка локального CA в доверенное хранилище системы.",
+    "description": "hugo server Запуск встроенного веб-сервера\nОписание Hugo предоставляет свой собственный веб-сервер, который создает и обслуживает сайт. Хотя hugo server отличается высокой производительностью, это веб-сервер с ограниченными возможностями.\nКоманда hugo server по умолчанию записывает и обслуживает файлы с диска, но вы можете выводить файлы в память, используя флаг --renderToMemory. Это может быть быстрее в некоторых случаях, но при этом будет потребляться больше памяти.\nПо умолчанию hugo также будет следить за любыми изменениями в ваших файлах и автоматически перестраивать сайт. Затем он в реальном времени перезагрузит все открытые страницы браузера и передаст туда последнее содержимое. Поскольку большинство сайтов Hugo создаются за доли секунды, вы сможете сохранить и увидеть свои изменения практически мгновенно.",
+    "tags": [],
+    "title": "hugo server",
+    "uri": "/hugo-docs-ru/commands/hugo_server/index.html"
+  },
+  {
+    "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
+    "content": "hugo version Отображает версию\nОписание Отображение информации о версии и окружении. Это полезно для сообщений об ошибках в Hugo.\nhugo version [flags] [args] Параметры -h, --help справка по version Параметры, наследуемые от родительских команд --clock string установка часов используя Hugo, напр. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по-умолчанию hugo.yaml|json|toml) --configDir string каталог конфигурации (по-умолчанию \"config\") --debug вывод отладки -d, --destination string путь файловой системы для записи файлов в -e, --environment string среда сборки --ignoreVendorPaths string игнорировать любые _vendor для путей модулей, соответствующих заданному шаблону Glob --logLevel string уровень лога (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory рендеринг в память (в основном полезно при запуске сервера) -s, --source string путь для чтения файлов относительно --themesDir string путь к каталогу тем -v, --verbose детальность вывода СМОТРИ ТАКЖЕ hugo\t- Создай свой сайт",
+    "description": "hugo version Отображает версию\nОписание Отображение информации о версии и окружении. Это полезно для сообщений об ошибках в Hugo.\nhugo version [flags] [args] Параметры -h, --help справка по version Параметры, наследуемые от родительских команд --clock string установка часов используя Hugo, напр. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по-умолчанию hugo.yaml|json|toml) --configDir string каталог конфигурации (по-умолчанию \"config\") --debug вывод отладки -d, --destination string путь файловой системы для записи файлов в -e, --environment string среда сборки --ignoreVendorPaths string игнорировать любые _vendor для путей модулей, соответствующих заданному шаблону Glob --logLevel string уровень лога (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory рендеринг в память (в основном полезно при запуске сервера) -s, --source string путь для чтения файлов относительно --themesDir string путь к каталогу тем -v, --verbose детальность вывода СМОТРИ ТАКЖЕ hugo\t- Создай свой сайт",
+    "tags": [],
+    "title": "hugo version",
+    "uri": "/hugo-docs-ru/commands/hugo_version/index.html"
+  },
+  {
+    "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
+    "content": "hugo new theme Создать новую тему (каркас)\nОписание Создать новую тему (скелет) под названием [name] в каталоге ./themes. Новая тема - это скелет. Пожалуйста, добавьте содержимое в тронутые файлы. Добавьте свое имя в строку копирайта в лицензии и настройте файл theme.toml в соответствии с вашими потребностями.\nhugo new theme [name] [flags] Параметры -h, --help help for theme Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new\t- Создать новый контент",
+    "description": "hugo new theme Создать новую тему (каркас)\nОписание Создать новую тему (скелет) под названием [name] в каталоге ./themes. Новая тема - это скелет. Пожалуйста, добавьте содержимое в тронутые файлы. Добавьте свое имя в строку копирайта в лицензии и настройте файл theme.toml в соответствии с вашими потребностями.\nhugo new theme [name] [flags] Параметры -h, --help help for theme Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new\t- Создать новый контент",
+    "tags": [],
+    "title": "hugo new theme",
+    "uri": "/hugo-docs-ru/commands/hugo_new_theme/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
@@ -109,7 +173,7 @@ var relearn_searchindex = [
     "description": "hugo new site Создать новый сайт (каркас)\nОписание Создаёт новый сайт в указанном каталоге. Новый сайт будет иметь правильную структуру, но без контента и темы. Используйте hugo new [contentPath] для создания нового контента.\nhugo new site [path] [flags] Параметры -f, --force инициализация внутри непустого каталога --format string предпочтительный формат файлов (toml, yaml или json) (по-умолчанию \"toml\") -h, --help справка по site Опции, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по-умолчанию hugo.yaml|json|toml) --configDir string каталог конфигурации (по-умолчанию \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string среда сборки --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string уровень лога (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose детальность вывода СМОТРИ ТАКЖЕ hugo new\t- Создать новый контент",
     "tags": [],
     "title": "hugo new site",
-    "uri": "/commands/hugo_new_site/index.html"
+    "uri": "/hugo-docs-ru/commands/hugo_new_site/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
@@ -117,7 +181,7 @@ var relearn_searchindex = [
     "description": "hugo new content Создает новый контент\nОписание Создает новый файл с содержимым и автоматически устанавливает дату и заголовок. Она сама определит, какой тип файла создать, исходя из указанного пути.\nВы также можете указать тип с помощью -k KIND.\nЕсли в вашей теме или сайте есть архетипы, они будут использованы.\nУбедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.\nhugo new content [path] [flags] Параметры -b, --baseURL string hostname (and path) to the root, e.g. https://spf13.com/ --cacheDir string filesystem path to cache directory -c, --contentDir string filesystem path to content directory --editor string редактировать новый контент с помощью этого редактора, если присутствует в системе -f, --force заменить файл если он уже существует -h, --help help for content -k, --kind string тип контента при создании --renderSegments strings named segments to render (configured in the segments config) -t, --theme strings используемая тема (располагается в /themes/THEMENAME/) Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo new\t- Создать новый контент",
     "tags": [],
     "title": "hugo new content",
-    "uri": "/commands/hugo_new_content/index.html"
+    "uri": "/hugo-docs-ru/commands/hugo_new_content/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
@@ -125,7 +189,7 @@ var relearn_searchindex = [
     "description": "hugo new Создает новый контент\nОписание Создайте новый файл с содержимым и автоматически установите дату и заголовок. Он сам определит, какой тип файла создать, исходя из указанного пути.\nВы также можете указать тип с помощью -k KIND.\nЕсли в вашей теме или сайте есть архетипы, они будут использованы.\nУбедитесь, что вы запустили эту программу в корневом каталоге вашего сайта.\nПараметры -h, --help справка по new Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по-умолчанию hugo.yaml|json|toml) --configDir string каталог конфигурации (по-умолчанию \"config\") --debug debug output -d, --destination string путь файловой системы для записи файлов -e, --environment string среда сборки --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string уровень журнала (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИ ТАКЖЕ hugo\t- Создай свой сайт hugo new content\t- Создать новый контент hugo new site\t- Создать новый сайт (каркас) hugo new theme\t- Создать новую тему (каркас)",
     "tags": [],
     "title": "hugo new",
-    "uri": "/commands/hugo_new/index.html"
+    "uri": "/hugo-docs-ru/commands/hugo_new/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
@@ -133,7 +197,7 @@ var relearn_searchindex = [
     "description": "hugo config Отобразить конфигурацию сайта\nОписание Отображение конфигурации сайта, как по-умолчанию, так и пользовательских настроек.\nhugo config [command] [flags] Параметры -b, --baseURL string имя хоста (и путь) к корню, напр. https://spf13.com/ --cacheDir string путь файловой системы к директории кэша -c, --contentDir string путь файловой системы к директории контента --format string предпочтительный формат файла (toml, yaml or json) (по-умолчанию \"toml\") -h, --help справка по конфигурации --lang string язык, на котором будет отображаться конфигурация. По умолчанию выбирается первый определенный язык. --renderSegments strings именованные сегменты для рендеринга (настраиваются в конфигурации сегментов) -t, --theme strings используемая тема (расположена в /themes/THEMENAME/) Параметры, наследуемые от родительских команд --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") --debug debug output -d, --destination string filesystem path to write files to -e, --environment string build environment --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern --logLevel string log level (debug|info|warn|error) --quiet build in quiet mode -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --themesDir string filesystem path to themes directory -v, --verbose verbose output СМОТРИТЕ ТАКЖЕ hugo\t- Создай свой сайт hugo config mounts\t- Печать настроенных монтирований файлов",
     "tags": [],
     "title": "hugo config",
-    "uri": "/commands/hugo_config/index.html"
+    "uri": "/hugo-docs-ru/commands/hugo_config/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
@@ -141,7 +205,7 @@ var relearn_searchindex = [
     "description": "hugo completion zsh Создаём скрипт автозаполнения для zsh\nОписание Создайте скрипт автозаполнения для оболочки zsh\nЕсли запуск для вашей оболочки еще не включено в вашей среде, то нужно включить его. Вы можете один раз выполнить следующее:\necho \"autoload -U compinit; compinit\" \u003e\u003e ~/.zshrc Чтобы выполнить запуск в текущем сеансе оболочки:\nsource \u003c(hugo completion zsh) Чтобы загрузить запуск для каждой новой сессии, выполните один раз:\nLinux: hugo completion zsh \u003e \"${fpath[1]}/_hugo\" macOS: hugo completion zsh \u003e $(brew --prefix)/share/zsh/site-functions/_hugo Чтобы эта настройка вступила в силу, вам нужно будет запустить новую оболочку.",
     "tags": [],
     "title": "hugo completion zsh",
-    "uri": "/commands/hugo_completion_zsh/index.html"
+    "uri": "/hugo-docs-ru/commands/hugo_completion_zsh/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
@@ -149,7 +213,7 @@ var relearn_searchindex = [
     "description": "hugo completion Создайте скрипт автозаполнения для указанной оболочки\nОписание Генерирует сценарий автозаполнения для hugo для указанной оболочки. Подробные сведения о том, как использовать сгенерированный скрипт, см. в справке по каждой подкоманде.\nПараметры -h, --help help for completion Параметры, наследуемые от родительских команд --clock string установка часов используя Hugo, напр. --clock 2021-11-06T22:30:00.00+09:00 --config string файл конфигурации (по умолчанию это hugo.yaml|json|toml) --configDir string директория конфигурации (по-умолчанию \"config\") --debug отладка вывода -d, --destination string путь файловой системы для записи файлов -e, --environment string среда сборки --ignoreVendorPaths string игнорирует любые _vendor для путей модулей, соответствующих заданному шаблону Glob --logLevel string уровень лога (debug|info|warn|error) --quiet сборка в тихом режиме -M, --renderToMemory рендеринг в память (в основном полезно при запуске сервера) -s, --source string путь к файловой системе для чтения файлов относительно --themesDir string путь к директории тем в файловой системе -v, --verbose детальность вывода СМОТРИ ТАКЖЕ hugo\t- Создай свой сайт hugo completion bash\t- Создайте скрипт автозаполнения для bash hugo completion fish\t- Создайте скрипт автозаполнения для fish hugo completion powershell\t- Создайте скрипт автозаполнения для powershell hugo completion zsh\t- Создайте скрипт автозаполнения для zsh",
     "tags": [],
     "title": "hugo completion",
-    "uri": "/commands/hugo_completion/index.html"
+    "uri": "/hugo-docs-ru/commands/hugo_completion/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
@@ -157,7 +221,7 @@ var relearn_searchindex = [
     "description": "hugo build Создай свой сайт\nОписание build - это основная команда, используемая для создания вашего сайта Hugo.\nHugo - это быстрый и гибкий генератор статических сайтов созданный с любовью spf13 и его друзьями на языке Go.\nПолная документация доступна по адресу https://gohugo.io/.\nhugo build [flags] Параметры -b, --baseURL string hostname (and path) to the root, e.g. https://spf13.com/ -D, --buildDrafts include content marked as draft -E, --buildExpired include expired content -F, --buildFuture include content with publishdate in the future --cacheDir string filesystem path to cache directory --cleanDestinationDir remove files from destination not found in static directories --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") -c, --contentDir string filesystem path to content directory --debug debug output -d, --destination string filesystem path to write files to --disableKinds strings disable different kind of pages (home, RSS etc.) --enableGitInfo add Git revision, date, author, and CODEOWNERS info to the pages -e, --environment string build environment --forceSyncStatic copy all files when static is changed. --gc enable to run some cleanup tasks (remove unused cache files) after the build -h, --help help for build --ignoreCache ignores the cache directory --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern -l, --layoutDir string filesystem path to layout directory --logLevel string log level (debug|info|warn|error) --minify minify any supported output format (HTML, XML etc.) --noBuildLock don't create .hugo_build.lock file --noChmod don't sync permission mode of files --noTimes don't sync modification time of files --panicOnWarning panic on first WARNING log --poll string set this to a poll interval, e.g --poll 700ms, to use a poll based approach to watch for file system changes --printI18nWarnings print missing translations --printMemoryUsage print memory usage to screen at intervals --printPathWarnings print warnings on duplicate target paths etc. --printUnusedTemplates print warnings on unused templates. --quiet build in quiet mode --renderSegments strings named segments to render (configured in the segments config) -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --templateMetrics display metrics about template executions --templateMetricsHints calculate some improvement hints when combined with --templateMetrics -t, --theme strings themes to use (located in /themes/THEMENAME/) --themesDir string filesystem path to themes directory --trace file write trace to file (not useful in general) -v, --verbose verbose output -w, --watch watch filesystem for changes and recreate as needed СМОТРИ ТАКЖЕ hugo\t- Создай свой сайт",
     "tags": [],
     "title": "hugo build",
-    "uri": "/commands/hugo_build/index.html"
+    "uri": "/hugo-docs-ru/commands/hugo_build/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Commands",
@@ -165,7 +229,7 @@ var relearn_searchindex = [
     "description": "hugo Создайте свой сайт\nОписание hugo - это основная команда, используемая для создания вашего сайта Hugo.\nHugo - это быстрый и гибкий генератор статических сайтов, созданный с любовью spf13 и его друзьями на языке Go.\nПолная документация доступна по адресу https://gohugo.io/.\nhugo [flags] Параметры -b, --baseURL string имя хоста (и путь) к корню, например, https://spf13.com/. -D, --buildDrafts включая содержимое, помеченное как черновик -E, --buildExpired включить просроченное содержимое -F, --buildFuture включать содержимое с датой публикации в будущем --cacheDir string путь файловой системы к каталогу кэша --cleanDestinationDir remove files from destination not found in static directories --clock string set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00 --config string config file (default is hugo.yaml|json|toml) --configDir string config dir (default \"config\") -c, --contentDir string filesystem path to content directory --debug debug output -d, --destination string filesystem path to write files to --disableKinds strings disable different kind of pages (home, RSS etc.) --enableGitInfo add Git revision, date, author, and CODEOWNERS info to the pages -e, --environment string build environment --forceSyncStatic copy all files when static is changed. --gc enable to run some cleanup tasks (remove unused cache files) after the build -h, --help справка по hugo --ignoreCache ignores the cache directory --ignoreVendorPaths string ignores any _vendor for module paths matching the given Glob pattern -l, --layoutDir string filesystem path to layout directory --logLevel string уровень лога (debug|info|warn|error) --minify minify any supported output format (HTML, XML etc.) --noBuildLock не создавать файл .hugo_build.lock --noChmod don't sync permission mode of files --noTimes don't sync modification time of files --panicOnWarning panic on first WARNING log --poll string set this to a poll interval, e.g --poll 700ms, to use a poll based approach to watch for file system changes --printI18nWarnings вывести отсутствующиее переводы --printMemoryUsage print memory usage to screen at intervals --printPathWarnings print warnings on duplicate target paths etc. --printUnusedTemplates print warnings on unused templates. --quiet build in quiet mode --renderSegments strings named segments to render (configured in the segments config) -M, --renderToMemory render to memory (mostly useful when running the server) -s, --source string filesystem path to read files relative from --templateMetrics display metrics about template executions --templateMetricsHints calculate some improvement hints when combined with --templateMetrics -t, --theme strings themes to use (located in /themes/THEMENAME/) --themesDir string filesystem path to themes directory --trace file write trace to file (not useful in general) -v, --verbose verbose output -w, --watch watch filesystem for changes and recreate as needed СМОТРИТЕ ТАКЖЕ hugo build\t- Создай свой сайт hugo completion\t- Создайте скрипт автозаполнения для указанной оболочки hugo config\t- Просмотр конфигурации сайта hugo convert\t- Перевести титульный лист в другой формат hugo deploy\t- Развертывание сайта в облаке провайдера hugo env\t- Отображение информации о версии и окружении hugo gen\t- Создание документации и стилей подсветки синтаксиса hugo import\t- Импорт сайта из другой системы hugo list\t- Список контента hugo mod\t- Управление модулями hugo new\t- Создание нового содержимого hugo server\t- Запуск встроенного веб-сервера hugo version\t- Отобразить версию",
     "tags": [],
     "title": "hugo",
-    "uri": "/commands/hugo/index.html"
+    "uri": "/hugo-docs-ru/commands/hugo/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов",
@@ -173,7 +237,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Категории",
-    "uri": "/categories/index.html"
+    "uri": "/hugo-docs-ru/categories/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Категории",
@@ -181,7 +245,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Категория :: Content Management",
-    "uri": "/categories/content-management/index.html"
+    "uri": "/hugo-docs-ru/categories/content-management/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов \u003e Категории",
@@ -189,7 +253,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Категория :: About",
-    "uri": "/categories/about/index.html"
+    "uri": "/hugo-docs-ru/categories/about/index.html"
   },
   {
     "breadcrumb": "Самый быстрый в мире фреймворк для создания сайтов",
@@ -197,6 +261,6 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Теги",
-    "uri": "/tags/index.html"
+    "uri": "/hugo-docs-ru/tags/index.html"
   }
 ]

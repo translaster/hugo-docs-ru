@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Инструменты разработчика :: Справка Hugo</title>
-    <link>http://localhost:1313/tools/index.html</link>
+    <link>http://localhost:1313/hugo-docs-ru/tools/index.html</link>
     <description>В дополнение к мощному CLI Hugo существует большое количество цепочек инструментов, разработанных сообществом для разработчиков Hugo.</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo-docs-ru/tools/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

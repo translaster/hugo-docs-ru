@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Управление содержимым :: Справка Hugo</title>
-    <link>http://localhost:1313/content-management/index.html</link>
+    <link>http://localhost:1313/hugo-docs-ru/content-management/index.html</link>
     <description>Hugo упрощает управление большими статическими сайтами благодаря поддержке архетипов, типов контента, меню, перекрестных ссылок, резюме и многого другого.</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Wed, 06 Nov 2024 12:49:50 +0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/content-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo-docs-ru/content-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Меню</title>
-      <link>http://localhost:1313/content-management/menus/index.html</link>
+      <link>http://localhost:1313/hugo-docs-ru/content-management/menus/index.html</link>
       <pubDate>Wed, 06 Nov 2024 12:49:50 +0500</pubDate>
-      <guid>http://localhost:1313/content-management/menus/index.html</guid>
+      <guid>http://localhost:1313/hugo-docs-ru/content-management/menus/index.html</guid>
       <description>Создайте меню, определив пункты, локализовав каждый из них и отобразив полученную структуру данных.</description>
     </item>
   </channel>

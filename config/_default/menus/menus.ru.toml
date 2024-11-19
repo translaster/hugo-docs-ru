@@ -111,19 +111,19 @@ weight = 1
 ######## GLOBAL ITEMS TO BE SHARED WITH THE HUGO SITES
 
 [[global]]
-name = 'News'
+name = 'Новости'
 weight = 1
 identifier = 'news'
 pageRef = '/news/'
 
 [[global]]
-name = 'Docs'
+name = 'Документация'
 weight = 5
 identifier = 'docs'
 url = '/documentation/'
 
 [[global]]
-name = 'Themes'
+name = 'Темы'
 weight = 10
 identifier = 'themes'
 url = 'https://themes.gohugo.io/'

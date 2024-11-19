@@ -1,100 +1,132 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/documentation/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/documentation/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/tools/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/tools/index.html</loc>
     <lastmod>2024-11-06T16:55:01+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/content-management/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/content-management/index.html</loc>
     <lastmod>2024-11-06T12:49:50+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/about/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/about/index.html</loc>
     <lastmod>2024-11-06T11:26:35+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/about/introduction/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/about/introduction/index.html</loc>
     <lastmod>2024-11-06T11:23:46+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/about/features/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/about/features/index.html</loc>
     <lastmod>2024-11-06T11:18:33+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/about/privacy/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/about/privacy/index.html</loc>
     <lastmod>2024-11-06T11:26:27+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/about/security/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/about/security/index.html</loc>
     <lastmod>2024-11-06T11:26:35+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/about/license/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/about/license/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/content-management/menus/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/content-management/menus/index.html</loc>
     <lastmod>2024-11-06T12:49:50+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/index.html</loc>
+    <lastmod>2024-11-11T11:58:57+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_list_published/index.html</loc>
+    <lastmod>2024-11-11T11:58:57+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/index.html</loc>
+    <lastmod>2024-11-11T11:58:57+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_list/index.html</loc>
+    <lastmod>2024-11-11T11:54:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_completion_powershell/index.html</loc>
+    <lastmod>2024-11-11T11:49:32+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_completion_fish/index.html</loc>
+    <lastmod>2024-11-11T11:46:13+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_completion_bash/index.html</loc>
+    <lastmod>2024-11-11T11:40:58+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_server_trust/index.html</loc>
+    <lastmod>2024-11-08T10:42:45+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_server/index.html</loc>
+    <lastmod>2024-11-08T10:42:36+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_version/index.html</loc>
+    <lastmod>2024-11-08T10:40:30+05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_new_theme/index.html</loc>
     <lastmod>2024-11-08T10:28:52+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo_new_theme/index.html</loc>
-    <lastmod>2024-11-08T10:28:52+05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/index.html</loc>
-    <lastmod>2024-11-08T10:28:52+05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/commands/hugo_new_site/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_new_site/index.html</loc>
     <lastmod>2024-11-08T10:17:45+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo_new_content/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_new_content/index.html</loc>
     <lastmod>2024-11-08T09:44:21+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo_new/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_new/index.html</loc>
     <lastmod>2024-11-08T09:39:27+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo_config/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_config/index.html</loc>
     <lastmod>2024-11-07T18:11:59+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo_completion_zsh/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_completion_zsh/index.html</loc>
     <lastmod>2024-11-07T18:05:32+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo_completion/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_completion/index.html</loc>
     <lastmod>2024-11-06T17:44:58+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo_build/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo_build/index.html</loc>
     <lastmod>2024-11-06T17:38:21+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commands/hugo/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/commands/hugo/index.html</loc>
     <lastmod>2024-11-06T17:02:23+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/categories/index.html</loc>
     <lastmod>2024-11-06T12:49:50+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/content-management/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/categories/content-management/index.html</loc>
     <lastmod>2024-11-06T12:49:50+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/about/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/categories/about/index.html</loc>
     <lastmod>2024-11-06T11:26:35+05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/index.html</loc>
+    <loc>http://localhost:1313/hugo-docs-ru/tags/index.html</loc>
   </url>
 </urlset>

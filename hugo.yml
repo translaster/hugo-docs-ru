@@ -1,4 +1,4 @@
-baseURL: 'https://atsip.ru/'
+baseURL: 'https://translaster.github.io/hugo-docs-ru/'
 languageCode: ru
 title: 'Справка Hugo'
 theme: hugo-theme-relearn
